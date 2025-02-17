@@ -1,0 +1,41 @@
+<?php
+/**
+ * Title: Header Default
+ * Slug: offspring/header-default
+ * Categories: offspring, featured, header
+ * Viewport Width: 1280
+ */
+?>
+<!-- wp:group {"className":"header","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"position":{"type":""}},"backgroundColor":"foreground","layout":{"type":"constrained","contentSize":"1170px","wideSize":"1170px"}} -->
+<div class="wp-block-group header has-foreground-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+    <div class="wp-block-group alignwide"><!-- wp:site-logo {"shouldSyncIcon":true} /-->
+
+        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+        <div class="wp-block-group"><!-- wp:buttons {"layout":{"type":"flex","verticalAlignment":"center"}} -->
+            <div class="wp-block-buttons"><!-- wp:button {"textColor":"background","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"border":{"width":"0px","style":"none"}}} -->
+                <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-background-color has-text-color has-link-color wp-element-button" style="border-style:none;border-width:0px"><img class="wp-image-16" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone.svg" alt="">  1646464654646</a></div>
+                <!-- /wp:button -->
+
+                <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->
+                <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Book an appoinment</a></div>
+                <!-- /wp:button --></div>
+            <!-- /wp:buttons --></div>
+        <!-- /wp:group --></div>
+    <!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"header","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"position":{"type":"sticky","top":"0px"}},"backgroundColor":"light","layout":{"type":"constrained","contentSize":"1170px","wideSize":"1170px"}} -->
+<div class="wp-block-group header has-light-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+    <div class="wp-block-group alignwide"><!-- wp:navigation {"style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fill","flexSize":null}},"fontSize":"s","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"}} -->
+        <!-- wp:navigation-link {"label":"Home","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+        <!-- wp:navigation-link {"label":"About","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+        <!-- wp:navigation-link {"label":"Blog","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+        <!-- wp:navigation-link {"label":"Destination","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+        <!-- wp:navigation-link {"label":"Contact","url":"#","kind":"custom","isTopLevelLink":true} /-->
+        <!-- /wp:navigation --></div>
+    <!-- /wp:group --></div>
+<!-- /wp:group -->
+
