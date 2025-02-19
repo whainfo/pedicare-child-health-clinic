@@ -10,7 +10,7 @@
 <main class="wp-block-group main-frontpage PediCare-Child-Health-Clinic-welcome" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","right":"var:preset|spacing|0","left":"var:preset|spacing|0"}}},"backgroundColor":"foreground","layout":{"type":"default"}} -->
     <div class="wp-block-group alignfull has-foreground-background-color has-background" id="section-1" style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px","justifyContent":"center"}} -->
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"}}} -->
-            <h2 class="wp-block-heading has-text-align-center" style="text-transform:none">Welcome to <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-subtitle-color">PediCare Child Health Clinic</mark></h2>
+            <h2 class="wp-block-heading has-text-align-center" style="text-transform:none">Welcome to <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color">PediCare Child Health Clinic</mark></h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center","fontSize":"l"} -->

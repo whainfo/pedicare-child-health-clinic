@@ -4,7 +4,7 @@
  * Slug: PediCare-Child-Health-Clinic/hero
  * Categories: PediCare-Child-Health-Clinic, featured
  * Block Types: core/template-part/section
- * Viewport Width: 1280
+ * Viewport Width: 1360
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri());?>/src/images/hero-joy.jpg","id":20,"dimRatio":40,"overlayColor":"secondary","minHeight":874,"isDark":false,"className":"hdrbanner-BX PediCare-Child-Health-Clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->

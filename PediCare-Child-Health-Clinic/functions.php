@@ -59,6 +59,8 @@ require_once get_template_directory() . '/inc/theme-enqueue.php';
 // Theme info Page
 require_once get_template_directory() . '/inc/theme-info.php';
 
+require_once get_template_directory() . '/inc/theme-cpt.php';
+
 // Registers a new pattern categories
 require_once get_template_directory() . '/inc/patterns.php';
 

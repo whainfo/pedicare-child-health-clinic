@@ -4,7 +4,7 @@
  * Slug: PediCare-Child-Health-Clinic/footer-default
  * Categories: PediCare-Child-Health-Clinic, featured, footer
  * Block Types: core/template-part/footer
- * Viewport Width: 1280
+ * Viewport Width: 1360
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"0","left":"0","right":"0"},"blockGap":"0"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","gradient":"footer-top-to-bottom","layout":{"type":"constrained","contentSize":"1360px"}} -->

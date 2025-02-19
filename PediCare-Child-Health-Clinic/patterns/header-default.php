@@ -3,7 +3,7 @@
  * Title: Header Default
  * Slug: PediCare-Child-Health-Clinic/header-default
  * Categories: PediCare-Child-Health-Clinic, featured, header
- * Viewport Width: 1280
+ * Viewport Width: 1360
  */
 ?>
 <!-- wp:group {"className":"header","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"position":{"type":""}},"backgroundColor":"foreground","layout":{"type":"constrained","contentSize":"1360px","wideSize":"1360px"}} -->
@@ -29,13 +29,13 @@
     <div class="wp-block-group alignwide"><!-- wp:navigation {"style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fill","flexSize":null}},"fontSize":"s","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"}} -->
         <!-- wp:navigation-link {"label":"Home","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"About","url":"#","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"Services","url":"#services","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Blog","url":"#","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"Team","url":"#team","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Destination","url":"#","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"Offshoot","url":"#offshoot","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Contact","url":"#","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"Contact Us","url":"#contact-us","kind":"custom","isTopLevelLink":true} /-->
         <!-- /wp:navigation --></div>
     <!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -344,6 +344,11 @@
 					"name": "Title color"
 				},
 				{
+					"slug": "title-highlight",
+					"color": "#18B4BB",
+					"name": "Title highlight"
+				},
+				{
 					"slug": "accent-color",
 					"color": "#D14591",
 					"name": "Accent"
