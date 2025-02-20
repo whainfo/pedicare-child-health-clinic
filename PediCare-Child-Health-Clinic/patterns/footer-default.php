@@ -13,7 +13,8 @@
 
         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
         <div class="wp-block-buttons"><!-- wp:button {"textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"border":{"width":"0px","style":"none"}}} -->
-            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px">faq</a></div>
+            <div class="wp-block-button is-style-outline" style="text-transform:uppercase">
+                <a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px">faq</a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"border":{"width":"0px","style":"none"}}} -->

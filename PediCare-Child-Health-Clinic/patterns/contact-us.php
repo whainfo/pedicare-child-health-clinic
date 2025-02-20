@@ -18,9 +18,9 @@
             <h2 class="wp-block-heading has-text-align-center" style="margin-right:0;margin-bottom:var(--wp--preset--spacing--50);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Medical</h2>
             <!-- /wp:heading -->
 
-            <!-- wp:image {"id":60,"sizeSlug":"full","linkDestination":"none"} -->
-            <figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/map.png" alt="" class="wp-image-60"/></figure>
-            <!-- /wp:image -->
+            <!-- wp:code {"className":"PediCare-Child-Health-Clinic-map PediCare-Child-Health-Clinic-gap-0 PediCare-Child-Health-Clinic-p-0"} -->
+            <pre class="wp-block-code PediCare-Child-Health-Clinic-map PediCare-Child-Health-Clinic-gap-0 PediCare-Child-Health-Clinic-p-0"><code><iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4198048504795!2d-0.08615712338005012!3d51.50551377181294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603503d4fd043%3A0xa32a769e04757274!2zMSBCYXR0bGUgQnJpZGdlIExuLCBMb25kb24gU0UxIDJIUCwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90LjRjw!5e0!3m2!1sru!2sua!4v1692970672029!5m2!1sru!2sua" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></code></pre>
+            <!-- /wp:code -->
 
             <!-- wp:social-links {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40","top":"var:preset|spacing|40"}}}} -->
             <ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:social-link {"url":"#test","service":"mail","label":""} /-->
@@ -56,9 +56,9 @@
             <h2 class="wp-block-heading has-text-align-center" style="margin-right:0;margin-bottom:var(--wp--preset--spacing--50);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Dental</h2>
             <!-- /wp:heading -->
 
-            <!-- wp:image {"id":60,"sizeSlug":"full","linkDestination":"none"} -->
-            <figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/map.png" alt="" class="wp-image-60"/></figure>
-            <!-- /wp:image -->
+            <!-- wp:code {"className":"PediCare-Child-Health-Clinic-map PediCare-Child-Health-Clinic-gap-0 PediCare-Child-Health-Clinic-p-0"} -->
+            <pre class="wp-block-code PediCare-Child-Health-Clinic-map PediCare-Child-Health-Clinic-gap-0 PediCare-Child-Health-Clinic-p-0"><code><iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4198048504795!2d-0.08615712338005012!3d51.50551377181294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603503d4fd043%3A0xa32a769e04757274!2zMSBCYXR0bGUgQnJpZGdlIExuLCBMb25kb24gU0UxIDJIUCwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90LjRjw!5e0!3m2!1sru!2sua!4v1692970672029!5m2!1sru!2sua" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></code></pre>
+            <!-- /wp:code -->
 
             <!-- wp:social-links {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40","top":"var:preset|spacing|40"}}}} -->
             <ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:social-link {"url":"#test","service":"mail"} /-->
@@ -94,9 +94,9 @@
             <h2 class="wp-block-heading has-text-align-center" style="margin-right:0;margin-bottom:var(--wp--preset--spacing--50);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">PSYCHOLOGY</h2>
             <!-- /wp:heading -->
 
-            <!-- wp:image {"id":60,"sizeSlug":"full","linkDestination":"none"} -->
-            <figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/map.png" alt="" class="wp-image-60"/></figure>
-            <!-- /wp:image -->
+            <!-- wp:code {"className":"PediCare-Child-Health-Clinic-map PediCare-Child-Health-Clinic-gap-0 PediCare-Child-Health-Clinic-p-0"} -->
+            <pre class="wp-block-code PediCare-Child-Health-Clinic-map PediCare-Child-Health-Clinic-gap-0 PediCare-Child-Health-Clinic-p-0"><code><iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4198048504795!2d-0.08615712338005012!3d51.50551377181294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603503d4fd043%3A0xa32a769e04757274!2zMSBCYXR0bGUgQnJpZGdlIExuLCBMb25kb24gU0UxIDJIUCwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90LjRjw!5e0!3m2!1sru!2sua!4v1692970672029!5m2!1sru!2sua" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></code></pre>
+            <!-- /wp:code -->
 
             <!-- wp:social-links {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40","top":"var:preset|spacing|40"}}}} -->
             <ul class="wp-block-social-links" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:social-link {"url":"#test","service":"mail"} /-->

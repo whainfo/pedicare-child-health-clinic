@@ -4,7 +4,9 @@
 
 .PediCare-Child-Health-Clinic-p-0 {
   padding: 0 !important; }
-
+.PediCare-Child-Health-Clinic-faq-item[open] summary{
+  color: var(--wp--preset--color--accent-color) !important;
+}
 .wp-element-button {
   transition: all .3s; }
 
