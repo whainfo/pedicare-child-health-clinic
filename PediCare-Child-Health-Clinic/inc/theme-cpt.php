@@ -20,7 +20,7 @@ function PediCare_Child_Health_Clinic_post_type() {
                 'not_found' => __('Not Found', 'PediCare-Child-Health-Clinic'),
                 'not_found_in_trash' => __('Not found in Trash', 'PediCare-Child-Health-Clinic'),
             ),
-            'supports' => array('title', 'editor'),
+            'supports' => array('title', 'editor','thumbnail'),
             'taxonomies' => array(),
             'hierarchical' => false,
             'public' => true,
@@ -43,6 +43,48 @@ function PediCare_Child_Health_Clinic_post_type() {
         register_post_type('service', $args);
 
     }
+    if(!post_type_exists('clinic')) {
+        $args = array(
+            'label' => __('Clinics', 'PediCare-Child-Health-Clinic'),
+            'description' => __('', 'PediCare-Child-Health-Clinic'),
+            'labels' => array(
+                'name' => _x('Clinics', 'Post Type General Name', 'PediCare-Child-Health-Clinic'),
+                'singular_name' => _x('Clinic', 'Post Type Singular Name', 'PediCare-Child-Health-Clinic'),
+                'menu_name' => __('Clinics', 'PediCare-Child-Health-Clinic'),
+                'parent_item_colon' => __('Parent Clinic', 'PediCare-Child-Health-Clinic'),
+                'all_items' => __('All Clinics', 'PediCare-Child-Health-Clinic'),
+                'view_item' => __('View Clinic', 'PediCare-Child-Health-Clinic'),
+                'add_new_item' => __('Add New Clinic', 'PediCare-Child-Health-Clinic'),
+                'add_new' => __('Add New', 'PediCare-Child-Health-Clinic'),
+                'edit_item' => __('Edit Clinic', 'PediCare-Child-Health-Clinic'),
+                'update_item' => __('Update Clinic', 'PediCare-Child-Health-Clinic'),
+                'search_items' => __('Search Clinic', 'PediCare-Child-Health-Clinic'),
+                'not_found' => __('Not Found', 'PediCare-Child-Health-Clinic'),
+                'not_found_in_trash' => __('Not found in Trash', 'PediCare-Child-Health-Clinic'),
+            ),
+            'supports' => array('title', 'editor','thumbnail'),
+            'taxonomies' => array(),
+            'hierarchical' => false,
+            'public' => true,
+            'show_ui' => true,
+            'show_in_menu' => true,
+            'show_in_nav_menus' => true,
+            'show_in_admin_bar' => false,
+            'menu_position' => 5,
+            'menu_icon' => 'dashicons-id',
+            'can_export' => true,
+            'has_archive' => false,
+            'exclude_from_search' => false,
+            'rewrite' => array('slug' => 'clinic'),
+            'publicly_queryable' => true,
+            'capability_type' => 'post',
+            'show_in_rest' => true,
+
+        );
+
+        register_post_type('clinic', $args);
+
+    }
     if(!post_type_exists('doctor')) {
         $args = array(
             'label' => __('Doctors', 'PediCare-Child-Health-Clinic'),
@@ -62,7 +104,7 @@ function PediCare_Child_Health_Clinic_post_type() {
                 'not_found' => __('Not Found', 'PediCare-Child-Health-Clinic'),
                 'not_found_in_trash' => __('Not found in Trash', 'PediCare-Child-Health-Clinic'),
             ),
-            'supports' => array('title', 'editor'),
+            'supports' => array('title', 'editor','thumbnail'),
             'taxonomies' => array(),
             'hierarchical' => false,
             'public' => true,
