@@ -30,14 +30,6 @@ function PediCare_Child_Health_Clinic_register_required_plugins() {
         array(
             'name'     => 'Safe SVG',
             'slug'     => 'safe-svg',
-        ),
-        array(
-            'name'     => 'Meta Field Block',
-            'slug'     => 'display-a-meta-field-as-block',
-        ),
-        array(
-            'name'     => 'Advanced Custom Fields',
-            'slug'     => 'advanced-custom-fields',
         )
     );
 

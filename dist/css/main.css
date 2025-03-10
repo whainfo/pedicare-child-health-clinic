@@ -45,18 +45,6 @@
     background-position: center;
 }
 
-@media screen and (max-width: 767px) {
-    .PediCare-Child-Health-Clinic-404 h1 {
-        font-size: 150px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .wp-block-navigation__container {
-        gap: 0.5rem;
-    }
-}
-
 footer.wp-block-template-part {
     margin-block-start: 0;
 }
@@ -91,4 +79,147 @@ footer.wp-block-template-part .wp-block-navigation__container li:last-child, foo
     align-items: center;
     gap: 5px;
     margin-bottom: 5px;
+}
+.PediCare-Child-Health-Clinic-faqs details:not(:last-of-type){
+    border-bottom: none;
+}
+.PediCare-Child-Health-Clinic-service-team {
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px 0;
+}
+.PediCare-Child-Health-Clinic-service-team .wp-block-group{
+    width: calc(100% / 6);
+}
+.PediCare-Child-Health-Clinic-list ::marker{
+
+}
+ol.PediCare-Child-Health-Clinic-list  {
+    list-style: none;
+    counter-reset: item;
+}
+.PediCare-Child-Health-Clinic-list li {
+    counter-increment: item;
+    margin-bottom: 1rem;
+}
+.PediCare-Child-Health-Clinic-list li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #18b4bb;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+}
+.PediCare-Child-Health-Clinic-list li:nth-child(2):before {
+    background: #f08304;
+}
+.PediCare-Child-Health-Clinic-list li:nth-child(3):before {
+    background: #d14591;
+}
+.PediCare-Child-Health-Clinic-list li:nth-child(4):before {
+    background: #a1c523;
+}
+.PediCare-Child-Health-Clinic-list li:nth-child(5):before {
+    background: #ffcd00;
+}
+.PediCare-Child-Health-Clinic-service-related .wp-block-column,
+.PediCare-Child-Health-Clinic-service-resourses{
+    position: relative;
+}
+.PediCare-Child-Health-Clinic-service-resourses::before {
+    content: "1";
+    position: absolute;
+    top: 50%;
+    font-size: 22px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    background-color: #D14591;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 500px;
+}
+.PediCare-Child-Health-Clinic-service-related .wp-block-column:before{
+    content: "1";
+    position: absolute;
+    font-size: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+    background-color: #D14591;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 500px;
+    font-weight: 700;
+    line-height: 30.8px;
+}
+.PediCare-Child-Health-Clinic-service-related .wp-block-column{
+    position: relative;
+}
+.PediCare-Child-Health-Clinic-service-related .wp-block-column:before{
+    content: "1";
+    position: absolute;
+    font-size: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+    background-color: #D14591;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 500px;
+    font-weight: 700;
+    line-height: 30.8px;
+}
+.PediCare-Child-Health-Clinic-service-related .wp-block-column:nth-child(2):before{
+    content: "2";
+    background-color: #F08304;
+}
+
+@media (max-width: 1240px) {
+    .PediCare-Child-Health-Clinic-service-team .wp-block-group{
+        width: calc(100% / 4);
+    }
+}
+@media (max-width: 1200px) {
+    .wp-block-navigation__container {
+        gap: 0.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .PediCare-Child-Health-Clinic-service-team .wp-block-group{
+        width: calc(100% / 3);
+    }
+}
+@media (max-width: 767px) {
+    .PediCare-Child-Health-Clinic-404 h1 {
+        font-size: 150px;
+    }
+}
+@media (max-width: 568px) {
+    .PediCare-Child-Health-Clinic-service-team .wp-block-group{
+        width: calc(100% / 2);
+    }
+}
+@media (max-width: 400px) {
+    .PediCare-Child-Health-Clinic-service-team .wp-block-group{
+        width: 100%;
+    }
 }
