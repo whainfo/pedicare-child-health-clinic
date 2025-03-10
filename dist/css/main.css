@@ -83,3 +83,12 @@ footer.wp-block-template-part .wp-block-navigation__container li:last-child, foo
 .PediCare-Child-Health-Clinic-clinics .wp-block-read-more{
   position: relative;
 }
+.PediCare-Child-Health-Clinic-contact-us iframe {
+    border: none;
+}
+.PediCare-Child-Health-Clinic-contact-us p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
