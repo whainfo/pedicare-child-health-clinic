@@ -197,7 +197,9 @@ ol.PediCare-Child-Health-Clinic-list  {
 .PediCare-Child-Health-Clinic-clinics a{
     text-decoration: unset;
 }
-
+.mobile-visible{
+    display: none!important;
+}
 @media (max-width: 1240px) {
     .PediCare-Child-Health-Clinic-service-team .wp-block-group{
         width: calc(100% / 4);
@@ -216,6 +218,12 @@ ol.PediCare-Child-Health-Clinic-list  {
 @media (max-width: 767px) {
     .PediCare-Child-Health-Clinic-404 h1 {
         font-size: 150px;
+    }
+    .mobile-visible{
+        display: block!important;;
+    }
+    .mobile-hidden{
+        display: none!important;;
     }
 }
 @media (max-width: 568px) {

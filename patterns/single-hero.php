@@ -7,9 +7,9 @@
  * Viewport Width: 1360
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri());?>/src/images/hero-joy.jpg","id":20,"dimRatio":20,"overlayColor":"secondary","minHeight":460,"isDark":false,"className":"hdrbanner-BX PediCare-Child-Health-Clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri());?>/src/images/pedicare.png","id":20,"dimRatio":20,"overlayColor":"secondary","minHeight":460,"isDark":false,"className":"hdrbanner-BX PediCare-Child-Health-Clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
 <div class="wp-block-cover is-light hdrbanner-BX PediCare-Child-Health-Clinic-gap-0" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:460px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span>
-    <img class="wp-block-cover__image-background wp-image-20" alt="" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/hero-joy.jpg" data-object-fit="cover"/>
+    <img class="wp-block-cover__image-background wp-image-20" alt="" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/pedicare.png" data-object-fit="cover"/>
     <div class="wp-block-cover__inner-container"><!-- wp:columns -->
         <div class="wp-block-columns"><!-- wp:column -->
             <div class="wp-block-column">
