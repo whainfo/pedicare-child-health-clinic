@@ -1,29 +1,21 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
-<!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"customOverlayColor":"#FFF","isUserOverlayColor":false,"isDark":false,"layout":{"type":"constrained","contentSize":"1360px"}} -->
-<div class="wp-block-cover is-light">
-    <span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#FFF"></span>
-    <div class="wp-block-cover__inner-container">
-        <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} /-->
+<!-- wp:cover {"useFeaturedImage":true,"dimRatio":20,"overlayColor":"secondary","minHeight":460,"isDark":false,"style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+<div class="wp-block-cover is-light" style="margin-top:0;min-height:460px">
+    <span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span>
+    <div class="wp-block-cover__inner-container"><!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} /-->
 
-        <!-- wp:post-excerpt /-->
+    <!-- wp:post-excerpt /-->
 
-        <!-- wp:buttons -->
-        <div class="wp-block-buttons">
-            <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"fontSize":"l"} -->
-            <div class="wp-block-button has-custom-font-size has-l-font-size"><a
-                    class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Enquire
-                now ></a></div>
-            <!-- /wp:button -->
-        </div>
-        <!-- /wp:buttons -->
-    </div>
+    <!-- wp:buttons -->
+    <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}},"fontSize":"l"} -->
+        <div class="wp-block-button has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button"><strong>Enquire now ></strong></a></div>
+        <!-- /wp:button --></div>
+    <!-- /wp:buttons -->
+</div>
 </div>
 <!-- /wp:cover -->
-<!-- wp:group {"tagName":"main","className":"PediCare-Child-Health-Clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"blockGap":"0"}},"layout":{"type":"default"}} -->
-<main class="wp-block-group PediCare-Child-Health-Clinic-gap-0"
-      style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)">
-    <!-- wp:post-content /-->
-</main>
+<!-- wp:group {"tagName":"main","className":"PediCare-Child-Health-Clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+<main class="wp-block-group PediCare-Child-Health-Clinic-gap-0" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:post-content /--></main>
 <!-- /wp:group -->
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
 

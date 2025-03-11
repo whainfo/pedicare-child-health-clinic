@@ -62,12 +62,6 @@ require_once get_template_directory() . '/inc/theme-info.php';
 // Registers a new pattern categories
 require_once get_template_directory() . '/inc/patterns.php';
 
-// tgm plugin for recommended plugins
-require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
-
-// Plugin installation and activation for WordPress themes.
-require_once get_template_directory() . '/inc/tgmpa_register.php';
-
 // register block styles
 require_once get_template_directory() . '/inc/block_styles.php';
 

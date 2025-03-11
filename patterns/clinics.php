@@ -14,9 +14,10 @@
          style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)">
         <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px","justifyContent":"center"}} -->
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)">
-            <!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"}}} -->
-            <h2 class="wp-block-heading has-text-align-center" style="text-transform:none">Clinics</h2>
-            <!-- /wp:heading --></div>
+            <!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}} -->
+            <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--70);text-transform:none">Our <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color">Team</mark></h2>
+            <!-- /wp:heading -->
+        </div>
         <!-- /wp:group -->
 
         <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"12rem"}} -->
@@ -139,16 +140,6 @@
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
                 <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">Child Obesity</a></p>
-                <!-- /wp:paragraph --></div>
-            <!-- /wp:group -->
-            <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon2.png" alt="" class="wp-image-30"/></a></figure>
-                <!-- /wp:image -->
-
-                <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">DEVELOPMENTAL PAEDIATRICS</a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
         </div>

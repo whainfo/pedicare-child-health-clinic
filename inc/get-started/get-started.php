@@ -1,71 +1,94 @@
 <?php
-add_action('admin_menu', 'PediCare_Child_Health_Clinic_getting_started');
-function PediCare_Child_Health_Clinic_getting_started()
+function dentix_theme_page_admin_style( $hook ) {
+    if ( 'appearance_page_dentix-guide-page' === $hook ) {
+        // Register theme stylesheet.
+        $theme_version = wp_get_theme()->get( 'Version' );
+
+        $version_string = is_string( $theme_version ) ? $theme_version : false;
+        wp_enqueue_style(
+            'dentix-theme-admin-style',
+            get_theme_file_uri( 'dist/css/about-admin.css' ),
+            array(),
+            $version_string
+        );
+    }
+}
+add_action( 'admin_enqueue_scripts', 'dentix_theme_page_admin_style' );
+
+add_action('admin_menu', 'dentix_getting_started');
+function dentix_getting_started()
 {
-    add_theme_page(esc_html__('Get Started', 'PediCare-Child-Health-Clinic'), esc_html__('Get Started', 'PediCare-Child-Health-Clinic'), 'edit_theme_options', 'PediCare-Child-Health-Clinic-guide-page', 'PediCare_Child_Health_Clinic_test_guide');
+    add_theme_page(esc_html__('Get Started', 'dentix'), esc_html__('Get Started', 'dentix'), 'edit_theme_options', 'dentix-guide-page', 'dentix_test_guide');
 }
 
 // Add a Custom CSS file to WP Admin Area
-function PediCare_Child_Health_Clinic_admin_theme_style()
+function dentix_admin_theme_style()
 {
     wp_enqueue_style('custom-admin-style', esc_url(get_template_directory_uri()) . '/inc/get-started/get-started.css');
 }
 
-add_action('admin_enqueue_scripts', 'PediCare_Child_Health_Clinic_admin_theme_style');
+add_action('admin_enqueue_scripts', 'dentix_admin_theme_style');
 
 //guidline for about theme
-function PediCare_Child_Health_Clinic_test_guide()
+function dentix_test_guide()
 {
     //custom function about theme customizer
     $return = add_query_arg(array());
-    $theme = wp_get_theme('PediCare-Child-Health-Clinic');
+    $theme = wp_get_theme('dentix');
     $screenshot_url = $theme->get_screenshot();
     ?>
-    <div class="wrapper-info">
-        <div class="intro">
-            <h3><?php esc_html_e('Welcome to PediCare Child Health Clinic WordPress Theme', 'PediCare-Child-Health-Clinic'); ?></h3>
-            <p>Version: <?php echo esc_html($theme['Version']); ?></p>
-        </div>
-        <div class="theme-desc">
-            <p><?php esc_html_e('PediCare Child Health Clinic is a WordPress theme designed for travel agencies and more. It uses advanced block technology to let you effortlessly create and customize your website. Achieve Google PageSpeed’s green zone for lightning-fast performance while showcasing your destinations, services, and stories with style.
-', 'PediCare-Child-Health-Clinic'); ?></p>
-        </div>
-        <div class="col-left">
-            <div class="started">
-                <hr>
-                <div class="centerbold">
-                    <h4><?php esc_html_e('Check Our Demo', 'PediCare-Child-Health-Clinic'); ?></h4>
-                    <p><?php esc_html_e('Here, you can view a live demonstration of our theme.', 'PediCare-Child-Health-Clinic'); ?></p>
-                    <a class="bg-color" href="<?php echo esc_url(PEDICARE_DEMO); ?>"
-                       target="_blank"><?php esc_html_e('Theme Demo', 'PediCare-Child-Health-Clinic'); ?></a>
-                    <hr>
-                    <h4><?php esc_html_e('FAQ', 'PediCare-Child-Health-Clinic'); ?></h4>
-                    <p><?php esc_html_e('Need more details? Please try to find an answer or ask your question.', 'PediCare-Child-Health-Clinic'); ?></p>
-                    <a class="bg-color" class="bg-color" href="<?php echo esc_url(PEDICARE_FAQ); ?>"
-                       target="_blank"><?php esc_html_e('Documentation', 'PediCare-Child-Health-Clinic'); ?></a>
-                    <hr>
-                    <h4><?php esc_html_e('Need Help?', 'PediCare-Child-Health-Clinic'); ?></h4>
-                    <p><?php esc_html_e('Go to our support forum to help you out in case of queries and doubts regarding our theme.', 'PediCare-Child-Health-Clinic'); ?></p>
-                    <a class="bg-color" href="<?php echo esc_url(PEDICARE_SUPPORT); ?>"
-                       target="_blank"><?php esc_html_e('Support', 'PediCare-Child-Health-Clinic'); ?></a>
-                    <hr>
-                    <h4><?php esc_html_e('Leave us a review', 'PediCare-Child-Health-Clinic'); ?></h4>
-                    <p><?php esc_html_e('Are you enjoying our theme? We would love to hear your feedback.', 'PediCare-Child-Health-Clinic'); ?></p>
-                    <a class="bg-color" href="<?php echo esc_url(PEDICARE_REVIEW); ?>"
-                       target="_blank"><?php esc_html_e('Review', 'PediCare-Child-Health-Clinic'); ?></a>
-                    <hr>
-                    <h4><?php esc_html_e('Contact Developers', 'PediCare-Child-Health-Clinic'); ?></h4>
-                    <p><?php esc_html_e('If you are looking for development support, feel free to schedule a free call.', 'PediCare-Child-Health-Clinic'); ?></p>
-                    <a href="<?php echo esc_url(PEDICARE_FREE_CALL); ?>"
-                       target="_blank"><?php esc_html_e('Schedule a free call', 'PediCare-Child-Health-Clinic'); ?></a>
+
+
+
+
+    <div id="welcome-panel" class="welcome-panel">
+        <div class="welcome-panel-content">
+            <div class="welcome-panel-header">
+                <h2><?php echo esc_html( $theme->Name ); ?></h2>
+                <p><?php esc_html_e( 'Free Full Site Editing WordPress Theme', 'dentix' ); ?></p>
+                <div class="logo-panel">
+                    <a href="<?php echo esc_url('https://webhelpagency.com/','dentix'); ?>" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri().'/src/images/logos/WHA_logo.svg' ); ?>"></a>
                 </div>
             </div>
-        </div>
-        <div class="col-right">
-            <div class="col-left-inner">
-                <img role="img"
-                     src="<?php echo esc_url($screenshot_url); ?>"
-                     alt=""/>
+
+            <div class="welcome-panel-column-container">
+                <div class="container-wrap">
+                    <div class="welcome-panel-column two-columns">
+                        <!-- <div class="welcome-panel-icon-pages"></div> -->
+                        <div class="welcome-panel-column-content">
+                            <h3><?php esc_html_e( 'Getting Started with DentiX!', 'dentix' ); ?></h3>
+                            <p><?php esc_html_e( 'Awesome! DentiX has been installed and activated successfully. Now, you can start building your dream website with a wide range of highly-customizable block patterns, templates, and template parts available in this astounding theme.', 'dentix' ); ?></p>
+                        </div>
+                    </div>
+
+                    <div class="welcome-panel-column two-columns">
+                        <div class="welcome-panel-column-content">
+                            <h3><?php esc_html_e( 'More Features with Web Help Agency', 'dentix' ); ?></h3>
+                            <p><?php esc_html_e( 'To get more features and unique home page sections, we recommend you to buy extended design. With the pro theme installed, get more options like google fonts, colors, sliders, page template, shortcodes and more.', 'dentix' ); ?></p>
+                            <a target="_blank" class="button green button-primary button-hero green" href=<?php echo esc_url("https://webhelpagency.com/"); ?>><?php esc_html_e( 'Buy DentiX Pro', 'dentix' ); ?></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="sidebar">
+                    <div class="welcome-panel-column important-links">
+                        <!-- <div class="welcome-panel-icon-pages"></div> -->
+                        <div class="welcome-panel-column-content">
+                            <h3><?php esc_html_e( 'Important Links', 'dentix' ); ?></h3>
+                            <a target="_blank" href="<?php echo esc_url( 'https://wordpress.org/support/theme/dentix/' ); ?>"><?php esc_html_e( 'Theme Support', 'dentix' ); ?></a>
+                            <a target="_blank" href="https://dentix.webhelpagency.com/"><?php esc_html_e( 'View Demo', 'dentix' ); ?></a>
+                        </div>
+                    </div>
+
+                    <div class="welcome-panel-column review">
+                        <!-- <div class="welcome-panel-icon-pages"></div> -->
+                        <div class="welcome-panel-column-content">
+                            <h3><?php esc_html_e( 'Leave us a review', 'dentix' ); ?></h3>
+                            <p><?php esc_html_e( 'Loved DentiX Theme? Feel free to leave your feedback. Your opinion helps us reach more audiences!', 'dentix' ); ?></p>
+                            <a href="https://wordpress.org/support/theme/dentix/reviews/" class="button button-primary button-hero" style="text-decoration: none;" target="_blank"><?php esc_html_e( 'Review', 'toothwise' ); ?></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

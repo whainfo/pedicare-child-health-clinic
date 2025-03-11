@@ -36,7 +36,6 @@
                         General Paediatrics</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -50,7 +49,6 @@
                         DEVELOPMENTAL PAEDIATRICS</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -64,7 +62,6 @@
                         ADOLESCENT MEDICINE</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -78,7 +75,6 @@
                         PAEDIATRIC GASTROENTEROLOGY &amp; HEPATOLOGY</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -92,7 +88,6 @@
                         ALLERGY &amp; IMMUNOLOGY</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -106,7 +101,6 @@
                         PAEDIATRIC NEUROLOGY</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -120,7 +114,6 @@
                         Children’s Plastic Surgery</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
@@ -134,217 +127,6 @@
                         Sleep Studies for Children</p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-9.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Children’s Dental</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-10.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Paediatric RESPIRATORY MEDICINE</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-11.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PAEDIATRIC ENDOCRINOLOGY</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-12.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PAEDIATRIC SURGERY</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-13.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Paediatric Nephrology</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-14.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PAEDIATRIC UROLOGY</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-15.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        CHILD NUTRITION &amp; DIETETICS</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-16.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Feeding therapy for children</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-17.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PAEDIATRIC Physiotherapy</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-18.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Occupational therapy</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-19.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Clinical Hypnotherapy</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-20.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        child Psychology</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon21.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Kids Travel &amp; BCG</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-25.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PAEDIATRIC EEG service</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group">
-                    <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                    <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-23.png"
-                                alt="" class="wp-image-30"/></figure>
-                    <!-- /wp:image -->
-
-                    <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PEG clinic</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group -->
-
             </div>
             <!-- /wp:group --></div>
         <!-- /wp:group --></main>

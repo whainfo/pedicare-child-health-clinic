@@ -33,27 +33,6 @@ Compatible with the latest WordPress version. Regular updates and expert support
 = 1.0 =
 * Initial version.
 
-= 1.0.1 =
-* Changed Logo to title
-* Updated Skip Links on all templates
-* Added escapings
-* Logo section replaced with dummy logos.
-
-= 1.0.2 =
-* TGMPA plugin updated with TGMPA Generator
-* Underlined links within content
-* Updated prefixes for everything the Theme defines in the public namespace, including options, functions, global variables, constants, post meta, wp_enqueue_script/style handle names, add_image_size names, wp_script_add_data keys, slugs/ids for new categories created with register_block_pattern_category etc.
-* Disabled minifications
-* Replaced some dummy images
-* Updated Styles with block styles
-
-= 1.0.3 =
-* Contact Form 7 updated as recommended and not required plugin with TGMPA
-* Updated some images
-
-= 1.1.2
-* Removed footer backlink
-
 == Copyright ==
 
 * Based on Twenty Twenty-Three WordPress Theme, (C) 2021 WordPress.org. Twenty Twenty-Three is distributed under the terms of the GNU GPL.

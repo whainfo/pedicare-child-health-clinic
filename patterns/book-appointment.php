@@ -16,19 +16,22 @@
         <!-- /wp:column -->
 
         <!-- wp:column {"verticalAlignment":"center"} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500","textTransform":"none"}},"fontSize":"l"} -->
-            <h4 class="wp-block-heading has-text-align-center has-l-font-size" style="font-style:normal;font-weight:500;text-transform:none">Book your appointment now</h4>
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"600"}},"fontSize":"l"} -->
+            <h3 class="wp-block-heading has-text-align-center has-l-font-size" style="font-style:normal;font-weight:600;text-transform:none">Book your appointment now</h3>
             <!-- /wp:heading -->
 
             <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"vertical"}} -->
-            <div class="wp-block-buttons"><!-- wp:button {"textColor":"footer-bottom","style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|footer-bottom"}}}},"fontSize":"l"} -->
-                <div class="wp-block-button has-custom-font-size has-l-font-size" style="font-style:normal;font-weight:500"><a class="wp-block-button__link has-footer-bottom-color has-text-color has-link-color wp-element-button"><img class="wp-image-16" style="width: 24px;" src="http://wp.offspring.loc/wp-content/uploads/2025/02/phone.svg" alt=""> 1646464654646</a></div>
+            <div class="wp-block-buttons"><!-- wp:button {"textColor":"footer-bottom","style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|footer-bottom"}}}},"fontSize":"xl"} -->
+                <div class="wp-block-button has-custom-font-size has-xl-font-size" style="font-style:normal;font-weight:700">
+                    <a class="wp-block-button__link has-footer-bottom-color has-text-color has-link-color wp-element-button">
+                        <strong><img class="wp-image-16" style="width: 33px;" src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/phone-green.svg" alt=""> 1646464654646</strong></a></div>
                 <!-- /wp:button -->
 
-                <!-- wp:button {"textAlign":"center","backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"l"} -->
-                <div class="wp-block-button has-custom-font-size has-l-font-size" style="font-style:normal;font-weight:500"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color has-text-align-center wp-element-button">REQUEST ONLINE</a></div>
+                <!-- wp:button {"textAlign":"center","backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"l"} -->
+                <div class="wp-block-button has-custom-font-size has-l-font-size" style="font-style:normal;font-weight:700"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color has-text-align-center wp-element-button"><strong>REQUEST ONLINE</strong></a></div>
                 <!-- /wp:button --></div>
             <!-- /wp:buttons --></div>
-        <!-- /wp:column --></div>
+        <!-- /wp:column -->
+    </div>
     <!-- /wp:columns --></div>
 <!-- /wp:group -->
