@@ -22,342 +22,134 @@
         <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"12rem"}} -->
         <div class="wp-block-group" style="padding-top:0;padding-bottom:0">
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon3.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon3.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">COELIAC DISEASE</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">COELIAC DISEASE</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon6.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon6.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">CHILD BEHAVIOUR</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">CHILD BEHAVIOUR</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon7.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon7.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">ALLERGY & IMMUNOLOGY</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">ALLERGY & IMMUNOLOGY</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon14.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon14.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">AUTISM ASSESSMENTS</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">AUTISM ASSESSMENTS</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon15.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon15.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">TRAVEL IMMUNISATIONS</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">TRAVEL IMMUNISATIONS</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon16.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon16.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">FUSSY FEEDERS</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">FUSSY FEEDERS</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon17.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon17.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">UNSETTLED BABY</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">UNSETTLED BABY</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon18.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon18.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">CONTINENCE CLINIC</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">CONTINENCE CLINIC</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon21.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon21.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">LIVER CLINIC</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">LIVER CLINIC</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon20.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon20.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">SLEEP</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">SLEEP</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon22.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon22.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">SPEECH & LANGUAGE</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">SPEECH & LANGUAGE</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon19.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon19.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">Child Obesity</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">Child Obesity</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><img
-                            src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon2.png"
-                            alt="" class="wp-image-30"/></figure>
+            <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon2.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
-                <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"-20px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-                <div class="wp-block-buttons" style="margin-top:-20px">
-                    <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}}} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-                                class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">
-                            Book now <img class="wp-image-22" style="height: 15px;"
-                                          src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/arrow-right.svg"
-                                          alt="">
-                        </a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
-
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">DEVELOPMENTAL PAEDIATRICS</p>
-                <!-- /wp:paragraph -->
-            </div>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">DEVELOPMENTAL PAEDIATRICS</a></p>
+                <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:group -->

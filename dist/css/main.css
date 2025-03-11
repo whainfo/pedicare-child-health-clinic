@@ -192,6 +192,11 @@ ol.PediCare-Child-Health-Clinic-list  {
     content: "2";
     background-color: #F08304;
 }
+.PediCare-Child-Health-Clinic-our-team a,
+.PediCare-Child-Health-Clinic-services a,
+.PediCare-Child-Health-Clinic-clinics a{
+    text-decoration: unset;
+}
 
 @media (max-width: 1240px) {
     .PediCare-Child-Health-Clinic-service-team .wp-block-group{

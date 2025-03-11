@@ -19,14 +19,14 @@
         <div class="wp-block-group" style="padding-top:0;padding-bottom:0">
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Jacinta Coleman</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Jacinta Coleman</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -36,14 +36,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-1.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-1.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Jeremy Rajanayagam</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Jeremy Rajanayagam</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -53,14 +53,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/Dr-Renee-Hewitt-1.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/Dr-Renee-Hewitt-1.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Ms Renee Hewitt</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Ms Renee Hewitt</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -70,14 +70,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-37.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-37.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Sam Mehr</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Sam Mehr</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -87,14 +87,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-36.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-36.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Geetika Badkar</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Geetika Badkar</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -104,14 +104,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-35.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-35.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Itay Zelcer</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Itay Zelcer</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -121,14 +121,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Jacinta Coleman</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Jacinta Coleman</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -138,14 +138,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-1.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-1.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Jeremy Rajanayagam</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Jeremy Rajanayagam</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -155,14 +155,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/Dr-Renee-Hewitt-1.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/Dr-Renee-Hewitt-1.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Ms Renee Hewitt</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Ms Renee Hewitt</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -172,14 +172,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-37.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-37.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Sam Mehr</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Sam Mehr</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -189,14 +189,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-36.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-36.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Geetika Badkar</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Geetika Badkar</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -206,14 +206,14 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-35.png" alt="" class="wp-image-30"/>
+                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+                <figure class="wp-block-image aligncenter size-full"><a href="#">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-35.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong>Dr Itay Zelcer</strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Itay Zelcer</a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->

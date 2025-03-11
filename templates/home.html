@@ -1,33 +1,24 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 <!-- wp:group {"tagName":"main","className":"PediCare-Child-Health-Clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"blockGap":"0"}},"layout":{"type":"default"}} -->
-<main class="wp-block-group PediCare-Child-Health-Clinic-gap-0" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} -->
-    <div class="wp-block-group"><!-- wp:query {"queryId":18,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"default"}} -->
-        <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->
-            <!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-            <div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":""} -->
-                <div class="wp-block-column"><!-- wp:post-featured-image {"isLink":true,"height":"220px","align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} /--></div>
-                <!-- /wp:column -->
+<main class="wp-block-group PediCare-Child-Health-Clinic-gap-0" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"40px"},"padding":{"top":"0","bottom":"0"}}}} -->
+    <div class="wp-block-columns" style="margin-bottom:40px;padding-top:0;padding-bottom:0"><!-- wp:column -->
+        <div class="wp-block-column"><!-- wp:query {"queryId":31,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"default"}} -->
+            <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+                <!-- wp:post-featured-image {"isLink":true,"height":"","scale":"contain","style":{"border":{"radius":"28px"}}} /-->
 
-                <!-- wp:column {"width":"","style":{"spacing":{"padding":{"left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}}} -->
-                <div class="wp-block-column" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:post-title {"level":3,"isLink":true,"textColor":"secondary","fontSize":"large"} /-->
+                <!-- wp:post-date {"format":"F j, Y"} /-->
+                <!-- wp:post-title {"isLink":true,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"}},"fontSize":"l"} /-->
 
-                    <!-- wp:group {"className":"post-details","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"var:preset|spacing|50"}},"textColor":"grey","fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-                    <div class="wp-block-group post-details has-grey-color has-text-color has-small-font-size" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:post-date {"format":"F j, Y","isLink":true} /--></div>
-                    <!-- /wp:group -->
+                <!-- wp:read-more {"content":"\u003cstrong\u003eRead more \u003e\u003c/strong\u003e","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-color"}}}},"textColor":"accent-color","fontSize":"m"} /-->
+                <!-- /wp:post-template --></div>
+            <!-- /wp:query -->
 
-                    <!-- wp:post-excerpt {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"var:preset|spacing|50","left":"0"}}},"textColor":"dark-light"} /--></div>
-                <!-- /wp:column --></div>
-            <!-- /wp:columns -->
-            <!-- /wp:post-template -->
-
-            <!-- wp:query-pagination {"paginationArrow":"chevron","layout":{"type":"flex","justifyContent":"center"}} -->
-            <!-- wp:query-pagination-previous /-->
-
-            <!-- wp:query-pagination-numbers /-->
-
-            <!-- wp:query-pagination-next /-->
-            <!-- /wp:query-pagination --></div>
-        <!-- /wp:query --></div>
-    <!-- /wp:group --></main>
+            <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+            <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--80)"><!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"fontSize":"l"} -->
+                <div class="wp-block-button has-custom-font-size has-l-font-size"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" href="#">Read more posts &gt;</a></div>
+                <!-- /wp:button --></div>
+            <!-- /wp:buttons --></div>
+        <!-- /wp:column --></div>
+    <!-- /wp:columns --></main>
 <!-- /wp:group -->
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
