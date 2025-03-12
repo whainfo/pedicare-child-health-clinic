@@ -12,19 +12,15 @@ PediCare Child Health Clinic: Your theme for immersive travel narratives and cap
 
 == Description ==
 
-PediCare Child Health Clinic: Your Travel Companion for WordPress
+The Child Health Clinic WordPress theme is a modern, professional, and user-friendly theme designed for pediatricians, child healthcare centers, medical clinics, and maternity hospitals. It features a clean, soothing design with a child-friendly aesthetic, making it perfect for parents seeking medical services for their little ones.
 
-Welcome to PediCare Child Health Clinic, the perfect WordPress theme for adventurers and travel enthusiasts. With its elegant design and intuitive features, PediCare Child Health Clinic empowers you to create stunning travel blogs, showcase mesmerizing photo galleries, and share your wanderlust stories like never before. Let your audience embark on virtual journeys as you guide them through your global escapades.
+Key Features:
+✅ Responsive & Mobile-Friendly: Ensures a seamless experience on all devices.
+✅ Service Pages: Dedicated sections for pediatric care, vaccinations, wellness checkups, and more.
+✅ Doctor Profiles: Showcase expert pediatricians with bios.
+✅ Blog & Health Tips: Share valuable insights on child health and wellness.
 
-🌍 Explore the World: Crafted with a focus on visual storytelling, PediCare Child Health Clinic ensures your travel photographs shine, while responsive design guarantees a seamless experience across all devices.
-
-📷 Capture Memories: Highlight your travel experiences through captivating galleries and engaging blog posts, inspiring others to embark on their own adventures.
-
-🗺️ Plan and Share: Integrated travel booking forms, interactive maps, and destination guides turn your website into a valuable resource for fellow travelers.
-
-🌐 Connect Globally: Foster a community of like-minded adventurers through built-in social media integration, sharing tips and building connections.
-
-Discover the thrill of exploration with PediCare Child Health Clinic today!
+This theme is ideal for building a trustworthy online presence for your health clinic, ensuring parents feel confident in choosing your services.
 
 Compatible with the latest WordPress version. Regular updates and expert support.
 
@@ -47,10 +43,6 @@ Author: Jonny Pinhorn
 License: Open Font License
 Source: https://fonts.google.com/specimen/Poppins
 
-* Inter Font
-Author: Rasmus Andersson
-License: Open Font License
-Source: https://fonts.google.com/specimen/Inter
 
 Images
 All images are licensed under [CC0] (https://creativecommons.org/publicdomain/zero/1.0/)

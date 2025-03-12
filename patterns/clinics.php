@@ -15,7 +15,8 @@
         <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px","justifyContent":"center"}} -->
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)">
             <!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}} -->
-            <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--70);text-transform:none">Our <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color">Team</mark></h2>
+            <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--70);text-transform:none">
+                <?php echo esc_html__('Our', 'PediCare-Child-Health-Clinic'); ?> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color"><?php echo esc_html__('Team', 'PediCare-Child-Health-Clinic'); ?></mark></h2>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
@@ -29,7 +30,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">COELIAC DISEASE</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('COELIAC DISEASE', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -39,7 +40,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">CHILD BEHAVIOUR</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('CHILD BEHAVIOUR', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -49,7 +50,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">ALLERGY & IMMUNOLOGY</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('ALLERGY & IMMUNOLOGY', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -59,7 +60,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">AUTISM ASSESSMENTS</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('AUTISM ASSESSMENTS', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -69,7 +70,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">TRAVEL IMMUNISATIONS</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('TRAVEL IMMUNISATIONS', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -79,7 +80,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">FUSSY FEEDERS</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('FUSSY FEEDERS', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -89,7 +90,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">UNSETTLED BABY</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('UNSETTLED BABY', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -99,7 +100,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">CONTINENCE CLINIC</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('CONTINENCE CLINIC', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -109,7 +110,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">LIVER CLINIC</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('LIVER CLINIC', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -119,7 +120,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">SLEEP</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('SLEEP', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -129,7 +130,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">SPEECH & LANGUAGE</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('SPEECH & LANGUAGE', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -139,7 +140,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#">Child Obesity</a></p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><a href="#"><?php echo esc_html__('Child Obesity', 'PediCare-Child-Health-Clinic'); ?></a></p>
                 <!-- /wp:paragraph --></div>
             <!-- /wp:group -->
         </div>

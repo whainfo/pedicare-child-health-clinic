@@ -70,13 +70,4 @@ if ( function_exists( 'register_block_style' ) ) {
         )
     );
 
-    register_block_style(
-        'contact-form-7-contact-form-selector',
-        array(
-            'name'         => 'PediCare-Child-Health-Clinic-contact-form-7-contact-form-selector',
-            'label'        => __( 'Contact Form 7', 'PediCare-Child-Health-Clinic' ),
-            'is_default'   => true,
-            'inline_style' => ".wpcf7-form label, #commentform label, .wp-block-search label { font-size: 14px; text-transform: capitalize; } .wpcf7-form .wpcf7-text, #commentform .wpcf7-text, .wp-block-search .wpcf7-text, .wpcf7-form .wpcf7-textarea, #commentform .wpcf7-textarea, .wp-block-search .wpcf7-textarea, .wpcf7-form .wpcf7-submit, #commentform .wpcf7-submit, .wp-block-search .wpcf7-submit, .wpcf7-form #comment, #commentform #comment, .wp-block-search #comment, .wpcf7-form #author, #commentform #author, .wp-block-search #author, .wpcf7-form #email, #commentform #email, .wp-block-search #email, .wpcf7-form #url, #commentform #url, .wp-block-search #url, .wpcf7-form .wp-block-search__input, #commentform .wp-block-search__input, .wp-block-search .wp-block-search__input { background-color: var(--wp--preset--color--white); border: 1px solid #d9d9d9; height: 42px; resize: none; padding: 0 10px; margin-top: 5px; border-radius: 35px 35px 35px 35px; } .wpcf7-form .wpcf7-textarea, #commentform .wpcf7-textarea, .wp-block-search .wpcf7-textarea, .wpcf7-form #comment, #commentform #comment, .wp-block-search #comment { resize: none; min-height: 200px; overflow: auto; padding: 10px; width: 100%; } .wpcf7-form .wpcf7-submit, #commentform .wpcf7-submit, .wp-block-search .wpcf7-submit, .wpcf7-form #submit, #commentform #submit, .wp-block-search #submit, .wpcf7-form .wp-block-search__button, #commentform .wp-block-search__button, .wp-block-search .wp-block-search__button { background-color: var(--wp--preset--color--primary); border-width: 0; font-size: inherit; line-height: inherit; text-decoration: none; box-sizing: border-box; cursor: pointer; text-align: center; word-break: break-word; border-radius: 40px; border-color: currentColor; color: var(--wp--preset--color--dark); font-family: var(--wp--preset--font-family--poppins); font-weight: 400; padding: 0 30px; display: flex; align-items: center; } .wpcf7-form #submit, #commentform #submit, .wp-block-search #submit { padding: 10px 30px; }",
-        )
-    );
 }

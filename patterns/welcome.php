@@ -10,11 +10,11 @@
 <main class="wp-block-group main-frontpage PediCare-Child-Health-Clinic-welcome" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","right":"var:preset|spacing|0","left":"var:preset|spacing|0"}}},"backgroundColor":"foreground","layout":{"type":"default"}} -->
     <div class="wp-block-group alignfull has-foreground-background-color has-background" id="section-1" style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px","justifyContent":"center"}} -->
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"}}} -->
-            <h2 class="wp-block-heading has-text-align-center" style="text-transform:none">Welcome to <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color">PediCare Child Health Clinic</mark></h2>
+            <h2 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Welcome to', 'PediCare-Child-Health-Clinic'); ?> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color"><?php echo esc_html__('PediCare Child Health Clinic', 'PediCare-Child-Health-Clinic'); ?></mark></h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center","fontSize":"l"} -->
-            <p class="has-text-align-center has-l-font-size">A team of paediatric medical, surgical and allied health specialists working closely with children and their families to achieve better health and wellbeing.</p>
+            <p class="has-text-align-center has-l-font-size"><?php echo esc_html__('A team of paediatric medical, surgical and allied health specialists working closely with children and their families to achieve better health and wellbeing.', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph --></div>
         <!-- /wp:group -->
 
@@ -27,11 +27,11 @@
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
-                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none">Family centred approach</h3>
+                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Family centred approach', 'PediCare-Child-Health-Clinic'); ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center">We champion the family’s pivotal role in children’s health and development by fostering trusting relationships and empowering families to help their children reach their full potential.</p>
+                    <p class="has-text-align-center"><?php echo esc_html__('We champion the family’s pivotal role in children’s health and development by fostering trusting relationships and empowering families to help their children reach their full potential.', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column -->
 
@@ -42,11 +42,11 @@
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
-                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none">Individualised care</h3>
+                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Individualised care', 'PediCare-Child-Health-Clinic'); ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center">We aim to support each child’s unique development and inspire them to make healthy lifestyle choices that last into adulthood.</p>
+                    <p class="has-text-align-center"><?php echo esc_html__('We aim to support each child’s unique development and inspire them to make healthy lifestyle choices that last into adulthood.', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column -->
 
@@ -57,11 +57,11 @@
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
-                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none">Excellence in care</h3>
+                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Excellence in care', 'PediCare-Child-Health-Clinic'); ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center">Our commitment is to provide exceptional pediatric care and continually share and advance our knowledge and practices to remain leaders in our field.</p>
+                    <p class="has-text-align-center"><?php echo esc_html__('Our commitment is to provide exceptional pediatric care and continually share and advance our knowledge and practices to remain leaders in our field.', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column --></div>
             <!-- /wp:columns --></div>

@@ -23,15 +23,15 @@
         <!-- /wp:group -->
 
         <!-- wp:navigation {"textColor":"blue-dark","overlayMenu":"always","icon":"menu","className":"mobile-visible","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"m","layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"}} -->
-        <!-- wp:navigation-link {"label":"Home","url":"#","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Home', 'PediCare-Child-Health-Clinic'); ?>","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Services","url":"#services","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Services', 'PediCare-Child-Health-Clinic'); ?>","url":"#services","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Team","url":"#team","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Team', 'PediCare-Child-Health-Clinic'); ?>","url":"#team","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Offshoot","url":"#offshoot","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Offshoot', 'PediCare-Child-Health-Clinic'); ?>","url":"#offshoot","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Contact Us","url":"#contact-us","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Contact Us', 'PediCare-Child-Health-Clinic'); ?>","url":"#contact-us","kind":"custom","isTopLevelLink":true} /-->
         <!-- /wp:navigation -->
     </div>
     <!-- /wp:group -->
@@ -51,15 +51,15 @@
 <!-- wp:group {"className":"header mobile-hidden","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|40","bottom":"var:preset|spacing|20","left":"var:preset|spacing|40"}},"position":{"type":""}},"backgroundColor":"light","layout":{"type":"constrained","contentSize":"1360px","wideSize":"1360px"}} -->
 <div class="wp-block-group header mobile-hidden has-light-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group alignwide"><!-- wp:navigation {"textColor":"blue-dark","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fill","flexSize":null}},"fontSize":"m","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"}} -->
-        <!-- wp:navigation-link {"label":"Home","url":"#","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Home', 'PediCare-Child-Health-Clinic'); ?>","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Services","url":"#services","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Services', 'PediCare-Child-Health-Clinic'); ?>","url":"#services","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Team","url":"#team","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Team', 'PediCare-Child-Health-Clinic'); ?>","url":"#team","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Offshoot","url":"#offshoot","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Offshoot', 'PediCare-Child-Health-Clinic'); ?>","url":"#offshoot","kind":"custom","isTopLevelLink":true} /-->
 
-        <!-- wp:navigation-link {"label":"Contact Us","url":"#contact-us","kind":"custom","isTopLevelLink":true} /-->
+        <!-- wp:navigation-link {"label":"<?php echo esc_html__('Contact Us', 'PediCare-Child-Health-Clinic'); ?>","url":"#contact-us","kind":"custom","isTopLevelLink":true} /-->
         <!-- /wp:navigation --></div>
     <!-- /wp:group --></div>
 <!-- /wp:group -->

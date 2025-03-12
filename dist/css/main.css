@@ -147,59 +147,25 @@ ol.PediCare-Child-Health-Clinic-list  {
     color: white;
     border-radius: 500px;
 }
-.PediCare-Child-Health-Clinic-service-related .wp-block-column:before{
-    content: "1";
-    position: absolute;
-    font-size: 22px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -20px;
-    background-color: #D14591;
-    width: 47px;
-    height: 47px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    border-radius: 500px;
-    font-weight: 700;
-    line-height: 30.8px;
-}
-.PediCare-Child-Health-Clinic-service-related{
-    counter-reset: number;
-}
 .PediCare-Child-Health-Clinic-service-related .wp-block-column{
     position: relative;
-    counter-increment: number;
 }
-.PediCare-Child-Health-Clinic-service-related .wp-block-column:before{
-    content: counter(number);
+.PediCare-Child-Health-Clinic-service-related .PediCare-Child-Health-Clinic-service-related-buttons{
     position: absolute;
-    font-size: 22px;
     left: 50%;
     transform: translateX(-50%);
     top: -20px;
-    background-color: #D14591;
+}
+.PediCare-Child-Health-Clinic-service-related .PediCare-Child-Health-Clinic-service-related-buttons a{
     width: 47px;
     height: 47px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
-    border-radius: 500px;
-    font-weight: 700;
-    line-height: 30.8px;
-}
-.PediCare-Child-Health-Clinic-service-related .wp-block-column:nth-child(2n):before{
-    background-color: #F08304;
-}
-.PediCare-Child-Health-Clinic-service-related .wp-block-column:nth-child(3n):before{
-    background-color: #18B4BB;
-}
-.PediCare-Child-Health-Clinic-service-related .wp-block-column:nth-child(4n):before{
-    background-color: #A3CE53;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0;
 }
 .PediCare-Child-Health-Clinic-our-team a,
 .PediCare-Child-Health-Clinic-service-team a,

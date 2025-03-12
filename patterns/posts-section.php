@@ -12,7 +12,7 @@
     <div class="wp-block-columns" style="margin-bottom:40px;padding-top:0;padding-bottom:0"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"656px"}} -->
             <div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"42px"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"blue-dark"} -->
-                <h2 class="wp-block-heading has-text-align-center has-blue-dark-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-size:42px">Offshoot</h2>
+                <h2 class="wp-block-heading has-text-align-center has-blue-dark-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50);font-size:42px"><?php echo esc_html__('Offshoot', 'PediCare-Child-Health-Clinic'); ?></h2>
                 <!-- /wp:heading --></div>
             <!-- /wp:group -->
 
@@ -29,7 +29,7 @@
 
             <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
             <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--80)"><!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"fontSize":"l"} -->
-                <div class="wp-block-button has-custom-font-size has-l-font-size"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" href="#">Read more posts &gt;</a></div>
+                <div class="wp-block-button has-custom-font-size has-l-font-size"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__('Read more posts', 'PediCare-Child-Health-Clinic'); ?> &gt;</a></div>
                 <!-- /wp:button --></div>
             <!-- /wp:buttons --></div>
         <!-- /wp:column --></div>

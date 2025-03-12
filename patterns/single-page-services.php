@@ -9,7 +9,7 @@
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"816px"}} -->
 <div class="wp-block-group">
     <!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"},"elements":{"link":{"color":{"text":"var:preset|color|blue-dark"}}}},"textColor":"blue-dark","fontSize":"xl"} -->
-    <h2 class="wp-block-heading has-text-align-center has-blue-dark-color has-text-color has-link-color has-xl-font-size" style="text-transform:none"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color-color">Common conditions</mark>&nbsp;managed by a Paediatric Dentist</h2>
+    <h2 class="wp-block-heading has-text-align-center has-blue-dark-color has-text-color has-link-color has-xl-font-size" style="text-transform:none"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color-color"><?php echo esc_html__('Common conditions', 'PediCare-Child-Health-Clinic'); ?></mark> <?php echo esc_html__('managed by a Paediatric Dentist', 'PediCare-Child-Health-Clinic'); ?></h2>
     <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -32,8 +32,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        General Paediatrics</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('General Paediatrics', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -45,8 +44,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        DEVELOPMENTAL PAEDIATRICS</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('DEVELOPMENTAL PAEDIATRICS', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -58,8 +56,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        ADOLESCENT MEDICINE</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('ADOLESCENT MEDICINE', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -71,8 +68,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PAEDIATRIC GASTROENTEROLOGY &amp; HEPATOLOGY</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('PAEDIATRIC GASTROENTEROLOGY & HEPATOLOGY', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -84,8 +80,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        ALLERGY &amp; IMMUNOLOGY</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('ALLERGY & IMMUNOLOGY', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -97,8 +92,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        PAEDIATRIC NEUROLOGY</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('PAEDIATRIC NEUROLOGY', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -110,8 +104,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Children’s Plastic Surgery</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Children’s Plastic Surgery', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -123,8 +116,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase">
-                        Sleep Studies for Children</p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Sleep Studies for Children', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
             </div>

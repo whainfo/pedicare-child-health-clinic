@@ -20,7 +20,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
-                <h4 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--60)"><strong>clinical interests</strong></h4>
+                <h4 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--60)"><strong><?php echo esc_html__('clinical interests', 'PediCare-Child-Health-Clinic'); ?></strong></h4>
                 <!-- /wp:heading -->
 
                 <!-- wp:list {"ordered":true,"className":"PediCare-Child-Health-Clinic-list"} -->
@@ -47,7 +47,7 @@
 
                 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap","orientation":"vertical"}} -->
                 <div class="wp-block-buttons alignwide"><!-- wp:button {"backgroundColor":"title-highlight","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}},"fontSize":"l"} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-title-highlight-background-color has-text-color has-background has-link-color wp-element-button"><strong>book an appointment</strong> &gt;</a></div>
+                    <div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-title-highlight-background-color has-text-color has-background has-link-color wp-element-button"><strong><?php echo esc_html__('book an appointment', 'PediCare-Child-Health-Clinic'); ?></strong> &gt;</a></div>
                     <!-- /wp:button --></div>
                 <!-- /wp:buttons --></div>
             <!-- /wp:group --></div>
@@ -56,35 +56,35 @@
         <!-- wp:column {"width":"60%"} -->
         <div class="wp-block-column" style="flex-basis:60%">
             <!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|title-highlight"}}},"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"600"}},"textColor":"title-highlight","fontSize":"xxl"} -->
-            <h2 class="wp-block-heading has-title-highlight-color has-text-color has-link-color has-xxl-font-size" style="font-style:normal;font-weight:600;text-transform:none">Dr Jeremy Rajanayagam</h2>
+            <h2 class="wp-block-heading has-title-highlight-color has-text-color has-link-color has-xxl-font-size" style="font-style:normal;font-weight:600;text-transform:none"><?php echo esc_html__('Dr Jeremy Rajanayagam', 'PediCare-Child-Health-Clinic'); ?></h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|blue-dark"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"blue-dark","fontSize":"l"} -->
-            <p class="has-blue-dark-color has-text-color has-link-color has-l-font-size" style="font-style:normal;font-weight:700">Dr Jeremy Rajanayagam</p>
+            <p class="has-blue-dark-color has-text-color has-link-color has-l-font-size" style="font-style:normal;font-weight:700"><?php echo esc_html__('Dr Jeremy Rajanayagam', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|blue-dark"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"blue-dark","fontSize":"l"} -->
-            <p class="has-blue-dark-color has-text-color has-link-color has-l-font-size" style="font-style:normal;font-weight:700">MBBS BSc FRACP</p>
+            <p class="has-blue-dark-color has-text-color has-link-color has-l-font-size" style="font-style:normal;font-weight:700"><?php echo esc_html__('MBBS BSc FRACP', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p>Dr. Jeremy Rajanayagam is an Australian trained paediatric Gastroenterologist with a consultant appointment at the Royal Children’s Hospital, Melbourne. He graduated from the University of Queensland in 2006, following which he completed his paediatric training, including advanced training in Gastroenterology in leading tertiary hospitals around Australia and New Zealand.</p>
+            <p><?php echo esc_html__('Dr. Jeremy Rajanayagam is an Australian trained paediatric Gastroenterologist with a consultant appointment at the Royal Children’s Hospital, Melbourne. He graduated from the University of Queensland in 2006, following which he completed his paediatric training, including advanced training in Gastroenterology in leading tertiary hospitals around Australia and New Zealand.', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p>Jeremy was conferred Fellow of the Royal Australasian College of Physicians in 2013, after which he embarked on a 2-year liver and intestinal transplant fellowship in the United Kingdom. Jeremy’s interests in child health has also lead him to pursue medical fieldwork in East Africa, India, Egypt and the Torres Strait.</p>
+            <p><?php echo esc_html__('Jeremy was conferred Fellow of the Royal Australasian College of Physicians in 2013, after which he embarked on a 2-year liver and intestinal transplant fellowship in the United Kingdom. Jeremy’s interests in child health has also lead him to pursue medical fieldwork in East Africa, India, Egypt and the Torres Strait.', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p>His desire to contribute to his profession has seen his involvement as an active researcher for which he has received a number of prestigious awards including, the National Health Medical Research Council Scholarship, Paediatric Research Award (American Association for the Study of Liver Disease) and Rising Star Award (International Liver Transplant Society).</p>
+            <p><?php echo esc_html__('His desire to contribute to his profession has seen his involvement as an active researcher for which he has received a number of prestigious awards including, the National Health Medical Research Council Scholarship, Paediatric Research Award (American Association for the Study of Liver Disease) and Rising Star Award (International Liver Transplant Society).', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p>Jeremy is currently investigating the immune mechanisms of liver disease at the Royal Children’s Hospital, in collaboration with Peter Doherty Institute for Infection and Immunology and the University of Melbourne. Jeremy has recently started consulting as a Paediatric Gastroenterologists at Offspring Child Health Specialists with additional appointments at the Royal Children’s Hospital and Epworth.</p>
+            <p><?php echo esc_html__('Jeremy is currently investigating the immune mechanisms of liver disease at the Royal Children’s Hospital, in collaboration with Peter Doherty Institute for Infection and Immunology and the University of Melbourne. Jeremy has recently started consulting as a Paediatric Gastroenterologists at Offspring Child Health Specialists with additional appointments at the Royal Children’s Hospital and Epworth.', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p>He is able to provide flexible new and review appointments with short wait times. He is also happy to be discuss patient referrals. When Jeremy is not working he enjoys being a father to two young children and chasing his kids at the park.</p>
+            <p><?php echo esc_html__('He is able to provide flexible new and review appointments with short wait times. He is also happy to be discuss patient referrals. When Jeremy is not working he enjoys being a father to two young children and chasing his kids at the park.', 'PediCare-Child-Health-Clinic'); ?></p>
             <!-- /wp:paragraph --></div>
         <!-- /wp:column -->
     </div>

@@ -12,7 +12,7 @@
     <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px","justifyContent":"center"}} -->
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)">
             <!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}} -->
-            <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--70);text-transform:none">Our <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color">Team</mark></h2>
+            <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--70);text-transform:none"><?php echo esc_html__('Our', 'PediCare-Child-Health-Clinic'); ?> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color"><?php echo esc_html__('Team', 'PediCare-Child-Health-Clinic'); ?></mark></h2>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
@@ -45,11 +45,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Jeremy Rajanayagam</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Jeremy Rajanayagam', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Paediatric Gastroenterologist & Hepatologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatric Gastroenterologist & Hepatologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -62,11 +62,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Ms Renee Hewitt</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Ms Renee Hewitt', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Clinical Neuropsychologist & Clinical Psychologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Clinical Neuropsychologist & Clinical Psychologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -79,11 +79,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Sam Mehr</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Sam Mehr', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Paediatric Allergist & Immunologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatric Allergist & Immunologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -96,11 +96,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Geetika Badkar</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Geetika Badkar', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Developmental and General Paediatrician</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Developmental and General Paediatrician', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -113,11 +113,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Itay Zelcer</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Itay Zelcer', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Paediatric Neurologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatric Neurologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -130,11 +130,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Jacinta Coleman</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Jacinta Coleman', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Paediatrician &amp; Adolescent Physician</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatrician & Adolescent Physician', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -147,11 +147,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Jeremy Rajanayagam</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Jeremy Rajanayagam', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Paediatric Gastroenterologist & Hepatologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatric Gastroenterologist & Hepatologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -164,11 +164,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Ms Renee Hewitt</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Ms Renee Hewitt', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Clinical Neuropsychologist & Clinical Psychologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Clinical Neuropsychologist & Clinical Psychologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -181,11 +181,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Sam Mehr</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Sam Mehr', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Paediatric Allergist & Immunologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatric Allergist & Immunologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -198,11 +198,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Geetika Badkar</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Geetika Badkar', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Developmental and General Paediatrician</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Developmental and General Paediatrician', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -215,11 +215,11 @@
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#">Dr Itay Zelcer</a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Itay Zelcer', 'PediCare-Child-Health-Clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none">Paediatric Neurologist</p>
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatric Neurologist', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

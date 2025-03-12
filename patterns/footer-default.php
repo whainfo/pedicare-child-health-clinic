@@ -14,19 +14,19 @@
         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
         <div class="wp-block-buttons"><!-- wp:button {"textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"border":{"width":"0px","style":"none"}}} -->
             <div class="wp-block-button is-style-outline" style="text-transform:uppercase">
-                <a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px">faq</a></div>
+                <a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px"><?php echo esc_html__('faq', 'PediCare-Child-Health-Clinic'); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"border":{"width":"0px","style":"none"}}} -->
-            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px">pOLICY</a></div>
+            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px"><?php echo esc_html__('policy', 'PediCare-Child-Health-Clinic'); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"border":{"width":"0px","style":"none"}}} -->
-            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px"><img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone-white.svg" alt="">  1646464654646</a></div>
+            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px"><img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone-white.svg" alt="">  <?php echo esc_html__('1646464654646', 'PediCare-Child-Health-Clinic'); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->
-            <div class="wp-block-button is-style-fill" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" href="#">Book an appointment</a></div>
+            <div class="wp-block-button is-style-fill" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__('Book an appointment', 'PediCare-Child-Health-Clinic'); ?></a></div>
             <!-- /wp:button --></div>
         <!-- /wp:buttons --></div>
     <!-- /wp:group -->
@@ -36,7 +36,7 @@
         <div class="wp-block-group"><!-- wp:columns {"style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"0"}}}} -->
             <div class="wp-block-columns" style="border-radius:0px;padding-top:0"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
                 <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"0"}},"typography":{"textTransform":"uppercase"}},"fontSize":"s"} -->
-                    <p class="has-text-align-center has-s-font-size" style="margin-bottom:0;text-transform:uppercase">Copyright @ 2024. All Rights Reserved.</p>
+                    <p class="has-text-align-center has-s-font-size" style="margin-bottom:0;text-transform:uppercase"><?php echo esc_html__('Copyright @ 2025. All Rights Reserved.', 'PediCare-Child-Health-Clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column --></div>
             <!-- /wp:columns --></div>

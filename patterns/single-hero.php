@@ -18,12 +18,12 @@
                 <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} /-->
 
                 <!-- wp:paragraph -->
-                <p>Let our family care for yours</p>
+                <p><?php echo esc_html__('Let our family care for yours', 'PediCare-Child-Health-Clinic'); ?></p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons -->
                 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}},"fontSize":"l"} -->
-                    <div class="wp-block-button has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button"><strong>Enquire now ></strong></a></div>
+                    <div class="wp-block-button has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button"><strong><?php echo esc_html__('Enquire now >', 'PediCare-Child-Health-Clinic'); ?></strong></a></div>
                     <!-- /wp:button --></div>
                 <!-- /wp:buttons -->
             </div>
