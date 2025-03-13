@@ -13,9 +13,6 @@
 			"area": "footer"
 		}
 	],
-	"patterns": [
-		"PediCare-Child-Health-Clinic/partner-logos"
-	],
 	"customTemplates": [
 		{
 			"name": "front",
