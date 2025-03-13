@@ -9,7 +9,7 @@
  */
 
 
-if (! function_exists('dentix_support')) :
+if (! function_exists('pedicare_child_health_clinic_support')) :
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -18,7 +18,7 @@ if (! function_exists('dentix_support')) :
 	 *
 	 * @return void
 	 */
-	function dentix_support() {
+	function pedicare_child_health_clinic_support() {
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -39,19 +39,12 @@ if (! function_exists('dentix_support')) :
 		add_editor_style( 'style.css' );
         global $pagenow;
         if ( is_admin() && ('themes.php' == $pagenow) && isset( $_GET['activated'] ) ) {
-            wp_safe_redirect( admin_url("themes.php?page=dentix-guide-page") );
+            wp_safe_redirect( admin_url("themes.php?page=pedicare-child-health-clinic-guide-page") );
         }
 	}
 endif;
-add_action( 'after_setup_theme', 'dentix_support' );
+add_action( 'after_setup_theme', 'pedicare_child_health_clinic_support' );
 
-
-/* Theme Credit link */
-define('DENTIX_FAQ',__('https://dentix.webhelpagency.com/documentation/','dentix'));
-define('DENTIX_DEMO',__('https://dentix.webhelpagency.com/','dentix'));
-define('DENTIX_SUPPORT',__('https://wordpress.org/support/theme/dentix/','dentix'));
-define('DENTIX_REVIEW',__('https://wordpress.org/support/theme/dentix/reviews/#new-post','dentix'));
-define('DENTIX_FREE_CALL',__('https://calendly.com/aleksandrchumak/30min','dentix'));
 
 // Enqueue Styles
 require_once get_template_directory() . '/inc/theme-enqueue.php';

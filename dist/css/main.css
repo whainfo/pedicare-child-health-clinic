@@ -1,13 +1,13 @@
-.dentix-gap-0 {
+.pedicare-child-health-clinic-gap-0 {
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
 }
 
-.dentix-p-0 {
+.pedicare-child-health-clinic-p-0 {
     padding: 0 !important;
 }
 
-.dentix-faq-item[open] summary {
+.pedicare-child-health-clinic-faq-item[open] summary {
     color: var(--wp--preset--color--accent-color) !important;
 }
 
@@ -23,17 +23,17 @@
     border-radius: 8px;
 }
 
-.dentix-services .wp-block-column {
+.pedicare-child-health-clinic-services .wp-block-column {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
     margin: var(--wp--preset--spacing--30) !important;
     border-radius: 10px;
 }
 
-.dentix-partners .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
+.pedicare-child-health-clinic-partners .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
     flex-basis: 46% !important;
 }
 
-.dentix-404 h1 {
+.pedicare-child-health-clinic-404 h1 {
     background-image: url("../../src/images/404.png");
     font-size: 200px;
     font-weight: 900;
@@ -67,43 +67,43 @@ footer.wp-block-template-part .wp-block-navigation__container li:last-child, foo
     padding-bottom: 0;
 }
 
-.dentix-services .wp-block-read-more,
-.dentix-clinics .wp-block-read-more{
+.pedicare-child-health-clinic-services .wp-block-read-more,
+.pedicare-child-health-clinic-clinics .wp-block-read-more{
   position: relative;
 }
-.dentix-contact-us iframe {
+.pedicare-child-health-clinic-contact-us iframe {
     border: none;
 }
-.dentix-contact-us p {
+.pedicare-child-health-clinic-contact-us p {
     display: flex;
     align-items: center;
     gap: 5px;
     margin-bottom: 5px;
 }
-.dentix-faqs details:not(:last-of-type){
+.pedicare-child-health-clinic-faqs details:not(:last-of-type){
     border-bottom: none;
 }
-.dentix-service-team {
+.pedicare-child-health-clinic-service-team {
     display: flex!important;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px 0;
 }
-.dentix-service-team .wp-block-group{
+.pedicare-child-health-clinic-service-team .wp-block-group{
     width: calc(100% / 6);
 }
-.dentix-list ::marker{
+.pedicare-child-health-clinic-list ::marker{
 
 }
-ol.dentix-list  {
+ol.pedicare-child-health-clinic-list  {
     list-style: none;
     counter-reset: item;
 }
-.dentix-list li {
+.pedicare-child-health-clinic-list li {
     counter-increment: item;
     margin-bottom: 1rem;
 }
-.dentix-list li:before {
+.pedicare-child-health-clinic-list li:before {
     margin-right: 10px;
     content: counter(item);
     background: #18b4bb;
@@ -114,23 +114,23 @@ ol.dentix-list  {
     text-align: center;
     display: inline-block;
 }
-.dentix-list li:nth-child(2):before {
+.pedicare-child-health-clinic-list li:nth-child(2):before {
     background: #f08304;
 }
-.dentix-list li:nth-child(3):before {
+.pedicare-child-health-clinic-list li:nth-child(3):before {
     background: #d14591;
 }
-.dentix-list li:nth-child(4):before {
+.pedicare-child-health-clinic-list li:nth-child(4):before {
     background: #a1c523;
 }
-.dentix-list li:nth-child(5):before {
+.pedicare-child-health-clinic-list li:nth-child(5):before {
     background: #ffcd00;
 }
-.dentix-service-related .wp-block-column,
-.dentix-service-resourses{
+.pedicare-child-health-clinic-service-related .wp-block-column,
+.pedicare-child-health-clinic-service-resourses{
     position: relative;
 }
-.dentix-service-resourses::before {
+.pedicare-child-health-clinic-service-resourses::before {
     content: "1";
     position: absolute;
     top: 50%;
@@ -147,16 +147,16 @@ ol.dentix-list  {
     color: white;
     border-radius: 500px;
 }
-.dentix-service-related .wp-block-column{
+.pedicare-child-health-clinic-service-related .wp-block-column{
     position: relative;
 }
-.dentix-service-related .dentix-service-related-buttons{
+.pedicare-child-health-clinic-service-related .pedicare-child-health-clinic-service-related-buttons{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: -20px;
 }
-.dentix-service-related .dentix-service-related-buttons a{
+.pedicare-child-health-clinic-service-related .pedicare-child-health-clinic-service-related-buttons a{
     width: 47px;
     height: 47px;
     display: flex;
@@ -167,19 +167,19 @@ ol.dentix-list  {
     font-weight: bold;
     padding: 0;
 }
-.dentix-our-team a,
-.dentix-service-team a,
-.dentix-services a,
-.dentix-clinics a{
+.pedicare-child-health-clinic-our-team a,
+.pedicare-child-health-clinic-service-team a,
+.pedicare-child-health-clinic-services a,
+.pedicare-child-health-clinic-clinics a{
     text-decoration: unset;
 }
 .mobile-visible{
     display: none!important;
 }
-.dentix-doctor{
+.pedicare-child-health-clinic-doctor{
     position: relative;
 }
-.dentix-doctor:before{
+.pedicare-child-health-clinic-doctor:before{
     content: "";
     position: absolute;
     display: block;
@@ -193,12 +193,12 @@ ol.dentix-list  {
     background-repeat: no-repeat;
     z-index: 1;
 }
-.dentix-doctor img{
+.pedicare-child-health-clinic-doctor img{
     z-index: 2;
     position: relative;
 }
 @media (max-width: 1240px) {
-    .dentix-service-team .wp-block-group{
+    .pedicare-child-health-clinic-service-team .wp-block-group{
         width: calc(100% / 4);
     }
 }
@@ -208,12 +208,12 @@ ol.dentix-list  {
     }
 }
 @media (max-width: 991px) {
-    .dentix-service-team .wp-block-group{
+    .pedicare-child-health-clinic-service-team .wp-block-group{
         width: calc(100% / 3);
     }
 }
 @media (max-width: 767px) {
-    .dentix-404 h1 {
+    .pedicare-child-health-clinic-404 h1 {
         font-size: 150px;
     }
     .mobile-visible{
@@ -224,12 +224,12 @@ ol.dentix-list  {
     }
 }
 @media (max-width: 568px) {
-    .dentix-service-team .wp-block-group{
+    .pedicare-child-health-clinic-service-team .wp-block-group{
         width: calc(100% / 2);
     }
 }
 @media (max-width: 400px) {
-    .dentix-service-team .wp-block-group{
+    .pedicare-child-health-clinic-service-team .wp-block-group{
         width: 100%;
     }
 }
