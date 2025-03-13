@@ -9,7 +9,7 @@
  */
 
 
-if (! function_exists('PediCare_Child_Health_Clinic_support')) :
+if (! function_exists('dentix_support')) :
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -18,7 +18,7 @@ if (! function_exists('PediCare_Child_Health_Clinic_support')) :
 	 *
 	 * @return void
 	 */
-	function PediCare_Child_Health_Clinic_support() {
+	function dentix_support() {
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -39,19 +39,19 @@ if (! function_exists('PediCare_Child_Health_Clinic_support')) :
 		add_editor_style( 'style.css' );
         global $pagenow;
         if ( is_admin() && ('themes.php' == $pagenow) && isset( $_GET['activated'] ) ) {
-            wp_safe_redirect( admin_url("themes.php?page=pedicare-child-health-clinic-guide-page") );
+            wp_safe_redirect( admin_url("themes.php?page=dentix-guide-page") );
         }
 	}
 endif;
-add_action( 'after_setup_theme', 'PediCare_Child_Health_Clinic_support' );
+add_action( 'after_setup_theme', 'dentix_support' );
 
 
 /* Theme Credit link */
-define('PEDICARE_FAQ',__('https://pedicare.webhelpagency.com/documentation/','pedicare-child-health-clinic'));
-define('PEDICARE_DEMO',__('https://pedicare.webhelpagency.com/','pedicare-child-health-clinic'));
-define('PEDICARE_SUPPORT',__('https://wordpress.org/support/theme/pedicare/','pedicare-child-health-clinic'));
-define('PEDICARE_REVIEW',__('https://wordpress.org/support/theme/pedicare/reviews/#new-post','pedicare-child-health-clinic'));
-define('PEDICARE_FREE_CALL',__('https://calendly.com/aleksandrchumak/30min','pedicare-child-health-clinic'));
+define('DENTIX_FAQ',__('https://dentix.webhelpagency.com/documentation/','dentix'));
+define('DENTIX_DEMO',__('https://dentix.webhelpagency.com/','dentix'));
+define('DENTIX_SUPPORT',__('https://wordpress.org/support/theme/dentix/','dentix'));
+define('DENTIX_REVIEW',__('https://wordpress.org/support/theme/dentix/reviews/#new-post','dentix'));
+define('DENTIX_FREE_CALL',__('https://calendly.com/aleksandrchumak/30min','dentix'));
 
 // Enqueue Styles
 require_once get_template_directory() . '/inc/theme-enqueue.php';
