@@ -18,7 +18,7 @@ add_action( 'admin_enqueue_scripts', 'PediCare_Child_Health_Clinic_theme_page_ad
 add_action('admin_menu', 'PediCare_Child_Health_Clinic_getting_started');
 function PediCare_Child_Health_Clinic_getting_started()
 {
-    add_theme_page(esc_html__('Get Started', 'pedicare-child-health-clinic'), esc_html__('Get Started', 'pedicare-child-health-clinic'), 'edit_theme_options', 'dentix-guide-page', 'PediCare_Child_Health_Clinic_test_guide');
+    add_theme_page(esc_html__('Get Started', 'pedicare-child-health-clinic'), esc_html__('Get Started', 'pedicare-child-health-clinic'), 'edit_theme_options', 'pedicare-child-health-clinic-guide-page', 'PediCare_Child_Health_Clinic_test_guide');
 }
 
 // Add a Custom CSS file to WP Admin Area
@@ -53,7 +53,7 @@ function PediCare_Child_Health_Clinic_test_guide()
 
             <div class="welcome-panel-column-container">
                 <div class="container-wrap">
-                    <div class="welcome-panel-column two-columns">
+                    <div class="">
                         <!-- <div class="welcome-panel-icon-pages"></div> -->
                         <div class="welcome-panel-column-content">
                             <h3><?php esc_html_e( 'Getting Started with DentiX!', 'pedicare-child-health-clinic' ); ?></h3>
@@ -61,7 +61,7 @@ function PediCare_Child_Health_Clinic_test_guide()
                         </div>
                     </div>
 
-                    <div class="welcome-panel-column two-columns">
+                    <div class="">
                         <div class="welcome-panel-column-content">
                             <h3><?php esc_html_e( 'More Features with Web Help Agency', 'pedicare-child-health-clinic' ); ?></h3>
                             <p><?php esc_html_e( 'To get more features and unique home page sections, we recommend you to buy extended design. With the pro theme installed, get more options like google fonts, colors, sliders, page template, shortcodes and more.', 'pedicare-child-health-clinic' ); ?></p>
