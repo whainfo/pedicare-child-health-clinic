@@ -44,7 +44,9 @@
     -webkit-text-fill-color: transparent;
     background-position: center;
 }
-
+footer a{
+    text-decoration: unset;
+}
 footer.wp-block-template-part {
     margin-block-start: 0;
 }

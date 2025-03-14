@@ -25,23 +25,23 @@
 
                 <!-- wp:list {"ordered":true,"className":"pedicare-child-health-clinic-list"} -->
                 <ol class="wp-block-list pedicare-child-health-clinic-list"><!-- wp:list-item -->
-                    <li>Coeliac disease</li>
+                    <li><?php echo esc_html__('Eosinophilic Oesophagitis', 'pedicare-child-health-clinic'); ?></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item -->
-                    <li>Inflammatory Bowel Disease</li>
+                    <li><?php echo esc_html__('Food Intolerances and Allergies', 'pedicare-child-health-clinic'); ?></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item -->
-                    <li>Acute &amp; Chronic Liver Disease</li>
+                    <li><?php echo esc_html__('Pancreatic Disorders in Children', 'pedicare-child-health-clinic'); ?></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item -->
-                    <li>Chronic Abdominal Pain</li>
+                    <li><?php echo esc_html__('Short Bowel Syndrome', 'pedicare-child-health-clinic'); ?></li>
                     <!-- /wp:list-item -->
 
                     <!-- wp:list-item -->
-                    <li>Constipation</li>
+                    <li><?php echo esc_html__('Constipation and Motility Disorders', 'pedicare-child-health-clinic'); ?></li>
                     <!-- /wp:list-item --></ol>
                 <!-- /wp:list -->
 
@@ -56,35 +56,31 @@
         <!-- wp:column {"width":"60%"} -->
         <div class="wp-block-column" style="flex-basis:60%">
             <!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|title-highlight"}}},"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"600"}},"textColor":"title-highlight","fontSize":"xxl"} -->
-            <h2 class="wp-block-heading has-title-highlight-color has-text-color has-link-color has-xxl-font-size" style="font-style:normal;font-weight:600;text-transform:none"><?php echo esc_html__('Dr Jeremy Rajanayagam', 'pedicare-child-health-clinic'); ?></h2>
+            <h2 class="wp-block-heading has-title-highlight-color has-text-color has-link-color has-xxl-font-size" style="font-style:normal;font-weight:600;text-transform:none"><?php echo esc_html__('Dr John Doe', 'pedicare-child-health-clinic'); ?></h2>
             <!-- /wp:heading -->
-
-            <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|blue-dark"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"blue-dark","fontSize":"l"} -->
-            <p class="has-blue-dark-color has-text-color has-link-color has-l-font-size" style="font-style:normal;font-weight:700"><?php echo esc_html__('Dr Jeremy Rajanayagam', 'pedicare-child-health-clinic'); ?></p>
-            <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|blue-dark"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"blue-dark","fontSize":"l"} -->
             <p class="has-blue-dark-color has-text-color has-link-color has-l-font-size" style="font-style:normal;font-weight:700"><?php echo esc_html__('MBBS BSc FRACP', 'pedicare-child-health-clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p><?php echo esc_html__('Dr. Jeremy Rajanayagam is an Australian trained paediatric Gastroenterologist with a consultant appointment at the Royal Children’s Hospital, Melbourne. He graduated from the University of Queensland in 2006, following which he completed his paediatric training, including advanced training in Gastroenterology in leading tertiary hospitals around Australia and New Zealand.', 'pedicare-child-health-clinic'); ?></p>
+            <p><?php echo esc_html__("Dr. John Doe is a highly trained paediatric gastroenterologist with a consultant appointment at the Children's Hospital in Sydney. He graduated from the University of Adelaide in 2004 and completed his paediatric training, including advanced specialisation in gastroenterology, across leading tertiary hospitals in Australia and New Zealand.", 'pedicare-child-health-clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p><?php echo esc_html__('Jeremy was conferred Fellow of the Royal Australasian College of Physicians in 2013, after which he embarked on a 2-year liver and intestinal transplant fellowship in the United Kingdom. Jeremy’s interests in child health has also lead him to pursue medical fieldwork in East Africa, India, Egypt and the Torres Strait.', 'pedicare-child-health-clinic'); ?></p>
+            <p><?php echo esc_html__('Dr. Doe was conferred as a Fellow of the Royal Australasian College of Physicians in 2012 before undertaking a two-year liver and intestinal transplant fellowship in Canada. His passion for child health has also led him to engage in medical fieldwork in South America, Southeast Asia, and remote Indigenous communities in Australia.', 'pedicare-child-health-clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p><?php echo esc_html__('His desire to contribute to his profession has seen his involvement as an active researcher for which he has received a number of prestigious awards including, the National Health Medical Research Council Scholarship, Paediatric Research Award (American Association for the Study of Liver Disease) and Rising Star Award (International Liver Transplant Society).', 'pedicare-child-health-clinic'); ?></p>
+            <p><?php echo esc_html__('His dedication to research has earned him several prestigious accolades, including the National Health Medical Research Council Scholarship, the Paediatric Research Award (American Association for the Study of Liver Disease), and the Rising Star Award (International Liver Transplant Society).', 'pedicare-child-health-clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p><?php echo esc_html__('Jeremy is currently investigating the immune mechanisms of liver disease at the Royal Children’s Hospital, in collaboration with Peter Doherty Institute for Infection and Immunology and the University of Melbourne. Jeremy has recently started consulting as a Paediatric Gastroenterologists at Offspring Child Health Specialists with additional appointments at the Royal Children’s Hospital and Epworth.', 'pedicare-child-health-clinic'); ?></p>
+            <p><?php echo esc_html__("Dr. Doe is currently investigating immune mechanisms of liver disease at the Children's Hospital in Brisbane in collaboration with leading research institutes. He has recently begun consulting as a paediatric gastroenterologist at Bright Futures Child Health Specialists, with additional appointments at the Children's Hospital and a private practice in Perth.", 'pedicare-child-health-clinic'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <p><?php echo esc_html__('He is able to provide flexible new and review appointments with short wait times. He is also happy to be discuss patient referrals. When Jeremy is not working he enjoys being a father to two young children and chasing his kids at the park.', 'pedicare-child-health-clinic'); ?></p>
+            <p><?php echo esc_html__('He offers flexible new and review appointments with short wait times and welcomes patient referrals. Outside of work, Dr. Doe enjoys spending time with his two young children and exploring the outdoors with his family.', 'pedicare-child-health-clinic'); ?></p>
             <!-- /wp:paragraph --></div>
         <!-- /wp:column -->
     </div>

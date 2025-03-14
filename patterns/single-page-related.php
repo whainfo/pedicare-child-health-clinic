@@ -21,7 +21,7 @@
                 <!-- /wp:button --></div>
             <!-- /wp:buttons -->
             <!-- wp:heading {"textAlign":"center","level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-color"}}}},"textColor":"accent-color"} -->
-            <h3 class="wp-block-heading has-text-align-center has-accent-color-color has-text-color has-link-color"><strong><strong><?php echo esc_html__('eating disorder service', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
+            <h3 class="wp-block-heading has-text-align-center has-accent-color-color has-text-color has-link-color"><strong><strong><?php echo esc_html__('Trauma and PTSD Support', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
             <!-- /wp:heading --></div>
         <!-- /wp:column -->
 
@@ -33,7 +33,7 @@
                 <!-- /wp:button --></div>
             <!-- /wp:buttons -->
             <!-- wp:heading {"textAlign":"center","level":3,"style":{"elements":{"link":{"color":{"text":"#f08304"}}},"color":{"text":"#f08304"}}} -->
-            <h3 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#f08304"><strong><strong><?php echo esc_html__('gender service', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
+            <h3 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#f08304"><strong><strong><?php echo esc_html__('Sleep Disorder Counseling', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
             <!-- /wp:heading --></div>
         <!-- /wp:column -->
 
@@ -45,7 +45,7 @@
                 <!-- /wp:button --></div>
             <!-- /wp:buttons -->
             <!-- wp:heading {"textAlign":"center","level":3,"style":{"elements":{"link":{"color":{"text":"#18b4bb"}}},"color":{"text":"#18b4bb"}}} -->
-            <h3 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#18b4bb"><strong><strong><?php echo esc_html__('relationship counselling', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
+            <h3 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#18b4bb"><strong><strong><?php echo esc_html__('Stress Management Services', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
             <!-- /wp:heading --></div>
         <!-- /wp:column -->
 
@@ -57,7 +57,7 @@
                 <!-- /wp:button --></div>
             <!-- /wp:buttons -->
             <!-- wp:heading {"textAlign":"center","level":3,"style":{"elements":{"link":{"color":{"text":"#a3ce53"}}},"color":{"text":"#a3ce53"}}} -->
-            <h3 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#a3ce53"><strong><strong><?php echo esc_html__('mental health services', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
+            <h3 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#a3ce53"><strong><strong><?php echo esc_html__('Grief and Loss Counseling', 'pedicare-child-health-clinic'); ?></strong></strong></h3>
             <!-- /wp:heading --></div>
         <!-- /wp:column --></div>
     <!-- /wp:columns --></div>
