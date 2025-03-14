@@ -27,7 +27,7 @@
                 <!-- wp:button {"textColor":"footer-bottom","className":"pedicare-child-health-clinic-phone","style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|footer-bottom"}}}},"fontSize":"xl"} -->
                 <div class="wp-block-button has-custom-font-size pedicare-child-health-clinic-phone has-xl-font-size" style="font-style:normal;font-weight:700">
                     <a class="wp-block-button__link has-footer-bottom-color has-text-color has-link-color wp-element-button">
-                        <strong><img class="wp-image-16" style="width: 33px;" src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/phone-green.svg" alt=""><?php echo esc_html__('1646464654646', 'pedicare-child-health-clinic'); ?></strong></a></div>
+                        <strong><img class="wp-image-16" style="width: 33px;" src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/phone-green.svg" alt=""><?php echo esc_html__('08001234567', 'pedicare-child-health-clinic'); ?></strong></a></div>
                 <!-- /wp:button -->
 
                 <!-- wp:button {"textAlign":"center","backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"l"} -->
