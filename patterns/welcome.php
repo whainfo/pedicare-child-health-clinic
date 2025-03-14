@@ -14,7 +14,7 @@
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center","fontSize":"l"} -->
-            <p class="has-text-align-center has-l-font-size"><?php echo esc_html__('A team of paediatric medical, surgical and allied health specialists working closely with children and their families to achieve better health and wellbeing.', 'pedicare-child-health-clinic'); ?></p>
+            <p class="has-text-align-center has-l-font-size"><?php echo esc_html__('Our dedicated team of pediatric medical, surgical, and allied health specialists works hand in hand with children and their families to promote better health and overall well-being.', 'pedicare-child-health-clinic'); ?></p>
             <!-- /wp:paragraph --></div>
         <!-- /wp:group -->
 
@@ -27,11 +27,11 @@
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
-                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Family centred approach', 'pedicare-child-health-clinic'); ?></h3>
+                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Family-Centered Care', 'pedicare-child-health-clinic'); ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center"><?php echo esc_html__('We champion the family’s pivotal role in children’s health and development by fostering trusting relationships and empowering families to help their children reach their full potential.', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center"><?php echo esc_html__("We recognize the essential role families play in a child's health and development. By building strong, trusting relationships, we empower families to support their children in reaching their full potential.", 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column -->
 
@@ -42,11 +42,11 @@
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
-                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Individualised care', 'pedicare-child-health-clinic'); ?></h3>
+                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Personalized Approach', 'pedicare-child-health-clinic'); ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center"><?php echo esc_html__('We aim to support each child’s unique development and inspire them to make healthy lifestyle choices that last into adulthood.', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center"><?php echo esc_html__('Every child is unique, and we tailor our care to support their individual growth while encouraging lifelong healthy habits.', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column -->
 
@@ -57,11 +57,11 @@
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
-                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Excellence in care', 'pedicare-child-health-clinic'); ?></h3>
+                    <h3 class="wp-block-heading has-text-align-center" style="text-transform:none"><?php echo esc_html__('Commitment to Excellence', 'pedicare-child-health-clinic'); ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"align":"center"} -->
-                    <p class="has-text-align-center"><?php echo esc_html__('Our commitment is to provide exceptional pediatric care and continually share and advance our knowledge and practices to remain leaders in our field.', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center"><?php echo esc_html__('We strive to deliver outstanding pediatric care, continuously expanding our knowledge and refining our practices to remain at the forefront of our field.', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column --></div>
             <!-- /wp:columns --></div>
