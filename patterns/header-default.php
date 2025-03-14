@@ -12,8 +12,11 @@
 
         <!-- wp:group {"className":"mobile-hidden","layout":{"type":"flex","flexWrap":"nowrap"}} -->
         <div class="wp-block-group mobile-hidden"><!-- wp:buttons {"fontSize":"m","layout":{"type":"flex","verticalAlignment":"center","justifyContent":"right"}} -->
-            <div class="wp-block-buttons has-custom-font-size has-m-font-size"><!-- wp:button {"textColor":"background","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"border":{"width":"0px","style":"none"}}} -->
-                <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-background-color has-text-color has-link-color wp-element-button" style="border-style:none;border-width:0px"><img class="wp-image-16" style="width: 16px;" src="http://wp.offspring.loc/wp-content/themes/pedicare-child-health-clinic/src/images/phone.svg" alt="">  1646464654646</a></div>
+            <div class="wp-block-buttons has-custom-font-size has-m-font-size">
+                <!-- wp:button {"textColor":"background","className":"is-style-outline pedicare-child-health-clinic-phone","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"border":{"width":"0px","style":"none"}}} -->
+                <div class="wp-block-button is-style-outline pedicare-child-health-clinic-phone">
+                    <a class="wp-block-button__link has-background-color has-text-color has-link-color wp-element-button" style="border-style:none;border-width:0px">
+                        <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone.svg" alt=""><?php echo esc_html__('1646464654646', 'pedicare-child-health-clinic'); ?></a></div>
                 <!-- /wp:button -->
 
                 <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->
@@ -38,8 +41,11 @@
 
     <!-- wp:group {"className":"mobile-visible","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
     <div class="wp-block-group mobile-visible"><!-- wp:buttons {"fontSize":"m","layout":{"type":"flex","verticalAlignment":"center","justifyContent":"center"}} -->
-        <div class="wp-block-buttons has-custom-font-size has-m-font-size"><!-- wp:button {"textColor":"background","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"border":{"width":"0px","style":"none"}}} -->
-            <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-background-color has-text-color has-link-color wp-element-button" style="border-style:none;border-width:0px"><img class="wp-image-16" style="width: 16px;" src="http://wp.offspring.loc/wp-content/themes/pedicare-child-health-clinic/src/images/phone.svg" alt="">  1646464654646</a></div>
+        <div class="wp-block-buttons has-custom-font-size has-m-font-size">
+            <!-- wp:button {"textColor":"background","className":"is-style-outline pedicare-child-health-clinic-phone","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"border":{"width":"0px","style":"none"}}} -->
+            <div class="wp-block-button is-style-outline pedicare-child-health-clinic-phone">
+                <a class="wp-block-button__link has-background-color has-text-color has-link-color wp-element-button" style="border-style:none;border-width:0px">
+                    <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone.svg" alt=""><?php echo esc_html__('1646464654646', 'pedicare-child-health-clinic'); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->

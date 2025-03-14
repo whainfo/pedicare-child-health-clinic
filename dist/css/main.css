@@ -92,9 +92,6 @@ footer.wp-block-template-part .wp-block-navigation__container li:last-child, foo
 .pedicare-child-health-clinic-service-team .wp-block-group{
     width: calc(100% / 6);
 }
-.pedicare-child-health-clinic-list ::marker{
-
-}
 ol.pedicare-child-health-clinic-list  {
     list-style: none;
     counter-reset: item;
@@ -102,6 +99,8 @@ ol.pedicare-child-health-clinic-list  {
 .pedicare-child-health-clinic-list li {
     counter-increment: item;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 .pedicare-child-health-clinic-list li:before {
     margin-right: 10px;
@@ -196,6 +195,9 @@ ol.pedicare-child-health-clinic-list  {
 .pedicare-child-health-clinic-doctor img{
     z-index: 2;
     position: relative;
+}
+.pedicare-child-health-clinic-phone img{
+    margin-right: 10px;
 }
 @media (max-width: 1240px) {
     .pedicare-child-health-clinic-service-team .wp-block-group{

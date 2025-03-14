@@ -49,9 +49,6 @@ add_action( 'after_setup_theme', 'pedicare_child_health_clinic_support' );
 // Enqueue Styles
 require_once get_template_directory() . '/inc/theme-enqueue.php';
 
-// Theme info Page
-require_once get_template_directory() . '/inc/theme-info.php';
-
 // Registers a new pattern categories
 require_once get_template_directory() . '/inc/patterns.php';
 

@@ -16,7 +16,7 @@
 
                 <!-- wp:image {"id":80,"sizeSlug":"full","linkDestination":"none","align":"center","className":"pedicare-child-health-clinic-doctor"} -->
                 <figure class="wp-block-image aligncenter size-full pedicare-child-health-clinic-doctor">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-1.png" alt="" class="wp-image-80"/></figure>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="" class="wp-image-80"/></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->

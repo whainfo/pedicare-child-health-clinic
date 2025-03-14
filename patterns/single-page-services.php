@@ -27,7 +27,7 @@
                 <div class="wp-block-group" style="border-style:none;border-width:0px;min-height:0px">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-3.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
@@ -39,7 +39,7 @@
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-4.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
@@ -51,7 +51,7 @@
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-5.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-general.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
@@ -63,7 +63,7 @@
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-6.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-heart.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
@@ -75,7 +75,7 @@
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-7.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-knee.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
@@ -87,7 +87,7 @@
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/icon-8.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-lungs.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
@@ -99,7 +99,7 @@
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/image-20-1.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
@@ -111,7 +111,7 @@
                 <div class="wp-block-group">
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
-                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/image-7-1.png"
+                                src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-pediatric.png"
                                 alt="" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 

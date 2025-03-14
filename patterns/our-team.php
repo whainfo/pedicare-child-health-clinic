@@ -23,7 +23,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo.png" alt="" class="wp-image-30"/></a>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -40,7 +40,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-1.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-2.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -57,7 +57,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/Dr-Renee-Hewitt-1.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-3.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -74,7 +74,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-37.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-4.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -91,7 +91,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-36.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -108,7 +108,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-35.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-2.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -125,7 +125,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-3.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -142,7 +142,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-1.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-4.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -159,7 +159,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/Dr-Renee-Hewitt-1.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -176,7 +176,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-37.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-2.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -193,7 +193,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-36.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-3.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -210,7 +210,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/photo-35.png" alt="" class="wp-image-30"/></a>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-4.png" alt="" class="wp-image-30"/></a>
                 </figure>
                 <!-- /wp:image -->
 

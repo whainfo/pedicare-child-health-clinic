@@ -6,8 +6,8 @@
  * Viewport Width: 1060
  */
 ?>
-<!-- wp:group {"style":{"color":{"background":"#fff8de"},"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
-<div class="wp-block-group has-background" style="background-color:#fff8de;margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70);padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"0"},"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"background-color","layout":{"type":"constrained","contentSize":"1360px"}} -->
+<div class="wp-block-group has-background-color-background-color has-background" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
     <!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"capitalize"},"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|70"}}}} -->
     <h2 class="wp-block-heading has-text-align-center" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--70);text-transform:capitalize"><?php echo esc_html__('Related', 'pedicare-child-health-clinic'); ?> <mark style="background-color:rgba(0, 0, 0, 0);color:#f08304" class="has-inline-color"><?php echo esc_html__('Services', 'pedicare-child-health-clinic'); ?></mark></h2>
     <!-- /wp:heading -->
@@ -62,4 +62,3 @@
         <!-- /wp:column --></div>
     <!-- /wp:columns --></div>
 <!-- /wp:group -->
-

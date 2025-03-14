@@ -15,8 +15,7 @@
         <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px","justifyContent":"center"}} -->
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)">
             <!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}} -->
-            <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--70);text-transform:none">
-                <?php echo esc_html__('Our', 'pedicare-child-health-clinic'); ?> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-title-highlight-color"><?php echo esc_html__('Team', 'pedicare-child-health-clinic'); ?></mark></h2>
+            <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--70);text-transform:none"><?php echo esc_html__('Clinics', 'pedicare-child-health-clinic'); ?></h2>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
@@ -26,7 +25,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon3.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -36,7 +35,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon6.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -46,7 +45,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon7.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-surgery.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -56,7 +55,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon14.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -66,7 +65,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon15.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -76,7 +75,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon16.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -86,7 +85,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon17.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -96,7 +95,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon18.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-general.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -106,7 +105,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon21.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-lungs.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -116,7 +115,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon20.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-sleep.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -126,7 +125,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon22.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-pediatric.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -136,7 +135,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/clinics/icon19.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-ruler.png" alt="" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->

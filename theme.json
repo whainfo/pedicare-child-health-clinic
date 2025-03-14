@@ -290,6 +290,11 @@
 					"slug": "accent-color",
 					"color": "#D14591",
 					"name": "Accent"
+				},
+				{
+					"slug": "background-color",
+					"color": "#fff8de",
+					"name": "Accent"
 				}
 			]
 		},
