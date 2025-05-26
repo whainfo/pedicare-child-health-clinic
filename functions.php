@@ -19,6 +19,7 @@ if (! function_exists('pedicare_child_health_clinic_support')) :
 	 * @return void
 	 */
 	function pedicare_child_health_clinic_support() {
+        load_theme_textdomain('pedicare-child-health-clinic', get_template_directory() . '/languages');
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
