@@ -38,7 +38,12 @@ TGMPA, Copyright (c) 2011, Thomas Griffin
 License: GPL-2.0+
 Source: http://tgmpluginactivation.com/
 
-* Poppins Font
+=== Fonts ===
+.ttf files downloaded from fonts.google.com have been converted to .woff2 using
+https://github.com/google/woff2
+
+
+Poppins Font
 Author: Jonny Pinhorn
 License: Open Font License
 Source: https://fonts.google.com/specimen/Poppins
