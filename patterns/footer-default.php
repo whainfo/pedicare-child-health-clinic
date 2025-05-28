@@ -9,7 +9,10 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"0","left":"0","right":"0"},"blockGap":"0"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","gradient":"footer-top-to-bottom","layout":{"type":"constrained","contentSize":"1360px"}} -->
 <div class="wp-block-group alignfull has-white-color has-footer-top-to-bottom-gradient-background has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:site-logo {"width":122,"className":"is-style-default"} /-->
+    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)">
+        <!-- wp:image {"id":17,"width":"auto","height":"60px","sizeSlug":"full","linkDestination":"none"} -->
+        <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/logos/logo.svg" alt="" class="wp-image-17" style="width:auto;height:60px"/></figure>
+        <!-- /wp:image -->
 
         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
         <div class="wp-block-buttons"><!-- wp:button {"textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"border":{"width":"0px","style":"none"}}} -->
