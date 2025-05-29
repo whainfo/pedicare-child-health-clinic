@@ -11,11 +11,11 @@
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
     <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":"40%","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-        <div class="wp-block-column" style="padding-top:0;padding-bottom:0;flex-basis:40%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}},"color":{"background":"#d1f0f1"},"border":{"radius":"53px"}},"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-background" style="border-radius:53px;background-color:#d1f0f1;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
+        <div class="wp-block-column" style="padding-top:0;padding-bottom:0;flex-basis:40%"><!-- wp:group {"className":"wha-signle-doc-sidebar","style":{"color":{"background":"#d1f0f1"},"border":{"radius":"53px"}},"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group wha-signle-doc-sidebar has-background" style="border-radius:53px;background-color:#d1f0f1">
 
                 <!-- wp:image {"id":80,"sizeSlug":"full","linkDestination":"none","align":"center","className":"pedicare-child-health-clinic-doctor"} -->
-                <figure class="wp-block-image aligncenter size-full pedicare-child-health-clinic-doctor">
+                <figure class="wp-block-image aligncenter size-full pedicare-child-health-clinic-doctor is-style-rounded">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="" class="wp-image-80"/></figure>
                 <!-- /wp:image -->
 
