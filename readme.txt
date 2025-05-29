@@ -22,7 +22,7 @@ Key Features:
 
 This theme is ideal for building a trustworthy online presence for your health clinic, ensuring parents feel confident in choosing your services.
 
-Compatible with the latest WordPress version. Regular updates and expert support.
+Compatible with the latest WordPress version. Regular updates and expert support
 
 == Changelog ==
 
