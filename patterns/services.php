@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"className":"main-frontpage pedicare-child-health-clinic-services has-background-color-background-color has-background","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","right":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"backgroundColor":"background-color","layout":{"type":"constrained","contentSize":"1360px"}} -->
-<div id="services" class="wp-block-group main-frontpage pedicare-child-health-clinic-services has-background-color-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)">
+<!-- wp:group {"className":"main-frontpage pedicare-child-health-clinic-services has-background-color-background-color has-background","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
+<div id="services" class="wp-block-group main-frontpage pedicare-child-health-clinic-services has-background-color-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
     <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","right":"var:preset|spacing|0","left":"var:preset|spacing|0"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
     <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px","justifyContent":"center"}} -->
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}} -->
