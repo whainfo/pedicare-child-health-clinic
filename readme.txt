@@ -12,7 +12,7 @@ PediCare Child Health Clinic: Your theme for immersive travel narratives and cap
 
 == Description ==
 
-The Child Health Clinic WordPress theme is a modern, professional, and user-friendly theme designed for pediatricians, child healthcare centers, medical clinics, and maternity hospitals. It features a clean, soothing design with a child-friendly aesthetic, making it perfect for parents seeking medical services for their little ones
+The Child Health Clinic WordPress theme is a modern, professional, and user-friendly theme designed for pediatricians, child healthcare centers, medical clinics, and maternity hospitals. It features a clean, soothing design with a child-friendly aesthetic, making it perfect for parents seeking medical services for their little ones.
 
 Key Features:
 ✅ Responsive & Mobile-Friendly: Ensures a seamless experience on all devices.
