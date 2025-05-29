@@ -8,6 +8,7 @@ if ( ! function_exists( 'pedicare_child_health_clinic_styles' ) ) :
 endif;
 add_action( 'wp_enqueue_scripts', 'pedicare_child_health_clinic_styles' );
 add_action( 'admin_enqueue_scripts', 'pedicare_child_health_clinic_styles' );
+add_action( 'enqueue_block_assets', 'pedicare_child_health_clinic_styles' );
 
 // Apply Front end styles to the admin area.
 function enqueue_admin_editor_style() {
