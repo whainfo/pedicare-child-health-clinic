@@ -231,7 +231,7 @@
 			"gradients": [
 				{
 					"slug": "footer-top-to-bottom",
-					"gradient": "linear-gradient(180deg, #07132A 0%, #003672 100%)",
+					"gradient": "linear-gradient(180deg, #525044 0%, #445052 100%)",
 					"name": "Footer top to bottom"
 				}
 			],

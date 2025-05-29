@@ -43,7 +43,7 @@
             <div class="wp-block-columns" style="border-radius:0px;padding-top:0"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
                 <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"0"}},"typography":{"textTransform":"uppercase"}},"fontSize":"s"} -->
                     <p class="has-text-align-center has-s-font-size" style="margin-bottom:0;text-transform:uppercase">
-                        <?php echo esc_html__('Copyright @ 2025. All Rights Reserved. Website designed by:', 'pedicare-child-health-clinic'); ?> <a href="https://webhelpagency.com/"><strong><?php echo esc_html__('Web Help Agency', 'pedicare-child-health-clinic'); ?></strong></a></p>
+                        <?php echo esc_html__('Copyright @ 2025. All Rights Reserved. Website by:', 'pedicare-child-health-clinic'); ?> <a href="https://webhelpagency.com/"><strong><?php echo esc_html__('Web Help Agency', 'pedicare-child-health-clinic'); ?></strong></a></p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:column --></div>

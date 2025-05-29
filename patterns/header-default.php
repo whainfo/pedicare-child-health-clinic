@@ -23,7 +23,7 @@
                 <!-- /wp:button -->
 
                 <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->
-                <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Book an appoinment</a></div>
+                <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Book an appointment</a></div>
                 <!-- /wp:button --></div>
             <!-- /wp:buttons --></div>
         <!-- /wp:group -->
@@ -52,7 +52,7 @@
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->
-            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Book an appoinment</a></div>
+            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Book an appointment</a></div>
             <!-- /wp:button --></div>
         <!-- /wp:buttons --></div>
     <!-- /wp:group --></div>

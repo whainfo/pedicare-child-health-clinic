@@ -32,7 +32,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('General Paediatrics', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Childhood Growth & Nutrition Assessments', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -44,7 +44,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('DEVELOPMENTAL PAEDIATRICS', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Speech and Language Development Therapy    ', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -56,7 +56,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('ADOLESCENT MEDICINE', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Autism Spectrum Disorder Evaluation & Support', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -68,7 +68,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('PAEDIATRIC GASTROENTEROLOGY & HEPATOLOGY', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Paediatric Endocrinology (Hormonal Disorders)', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -80,7 +80,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('ALLERGY & IMMUNOLOGY', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Childhood Asthma & Respiratory Care', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -92,7 +92,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('PAEDIATRIC NEUROLOGY', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Infant Feeding and Lactation Support', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -104,7 +104,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Children’s Plastic Surgery', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Paediatric Infectious Diseases Consultation', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -116,7 +116,7 @@
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
-                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Sleep Studies for Children', 'pedicare-child-health-clinic'); ?></p>
+                    <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__('Neonatal Follow-up & High-Risk Infant Care', 'pedicare-child-health-clinic'); ?></p>
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:group -->
             </div>

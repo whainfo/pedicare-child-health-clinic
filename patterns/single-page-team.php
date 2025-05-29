@@ -18,31 +18,14 @@
         <div class="wp-block-group pedicare-child-health-clinic-service-team" style="padding-top:0;padding-bottom:0">
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="" class="wp-image-30"/></a>
+                <!-- wp:image {"id":30,"width":"auto","height":"150px","sizeSlug":"full","linkDestination":"custom","align":"center","style":{"color":{"duotone":["#00d2d6","#00d2d6"]}}} -->
+                <figure class="wp-block-image aligncenter size-full is-resized"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-girl.svg" alt="" class="wp-image-30" style="width:auto;height:150px"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Jacinta Coleman', 'pedicare-child-health-clinic'); ?></a></strong></h5>
-                <!-- /wp:heading -->
-
-                <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
-                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatrician & Adolescent Physician', 'pedicare-child-health-clinic'); ?></p>
-                <!-- /wp:paragraph -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-2.png" alt="" class="wp-image-30"/></a>
-                </figure>
-                <!-- /wp:image -->
-
-                <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Jeremy Rajanayagam', 'pedicare-child-health-clinic'); ?></a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Nathan Kim', 'pedicare-child-health-clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -52,14 +35,29 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-3.png" alt="" class="wp-image-30"/></a>
+                <!-- wp:image {"width":"auto","height":"150px","className":"aligncenter size-full is-resized"} -->
+                <figure class="wp-block-image is-resized aligncenter size-full"><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-man.svg" alt="" style="width:auto;height:150px"/></a></figure>
+                <!-- /wp:image -->
+
+                <!-- wp:heading {"textAlign":"center","level":5} -->
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Amelia Rhodes', 'pedicare-child-health-clinic'); ?></a></strong></h5>
+                <!-- /wp:heading -->
+
+                <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
+                <p class="has-text-align-center has-m-font-size" style="line-height:1.5;text-transform:none"><?php echo esc_html__('Paediatric Endocrinologist', 'pedicare-child-health-clinic'); ?></p>
+                <!-- /wp:paragraph -->
+            </div>
+            <!-- /wp:group -->
+            <!-- wp:group {"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group">
+                <!-- wp:image {"id":30,"width":"auto","height":"150px","sizeSlug":"full","linkDestination":"custom","align":"center","style":{"color":{"duotone":["#f6751d","#f6751d"]}}} -->
+                <figure class="wp-block-image aligncenter size-full is-resized"><a href="#">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-girl.svg" alt="" class="wp-image-30" style="width:auto;height:150px"/></a>
                 </figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Ms Renee Hewitt', 'pedicare-child-health-clinic'); ?></a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Ms Talia Nguyen', 'pedicare-child-health-clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -69,14 +67,12 @@
             <!-- /wp:group -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
-                <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
-                <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-4.png" alt="" class="wp-image-30"/></a>
-                </figure>
+                <!-- wp:image {"width":"auto","height":"150px","className":"aligncenter size-full is-resized"} -->
+                <figure class="wp-block-image is-resized aligncenter size-full"><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-man.svg" alt="" style="width:auto;height:150px"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
-                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Sam Mehr', 'pedicare-child-health-clinic'); ?></a></strong></h5>
+                <h5 class="wp-block-heading has-text-align-center"><strong><a href="#"><?php echo esc_html__('Dr Elias Turner', 'pedicare-child-health-clinic'); ?></a></strong></h5>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"none","lineHeight":"1.5"}},"fontSize":"m"} -->
