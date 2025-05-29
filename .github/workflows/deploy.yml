@@ -1,4 +1,4 @@
-name: Cloudways SFTP Deploy
+name: Deploy to Cloudways via SFTP
 
 on:
   push:
@@ -12,13 +12,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup SSH key
-        run: |
-          mkdir -p ~/.ssh
-          printf "%s" "${{ secrets.SFTP_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -p ${{ secrets.SFTP_PORT }} ${{ secrets.SFTP_HOST }} >> ~/.ssh/known_hosts
-
-      - name: Deploy via SFTP
-        run: |
-          rsync -avz -e "ssh -p ${{ secrets.SFTP_PORT }}" ./ ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_HOST }}:${{ secrets.SFTP_REMOTE }}
+      - name: SFTP Deploy
+        uses: herve3x/github-action-sftp-deploy@v1.2.4
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          privateKey: ${{ secrets.SFTP_KEY }}
+          port: ${{ secrets.SFTP_PORT }}
+          local_path: ./
+          remote_path: ${{ secrets.SFTP_REMOTE }}
