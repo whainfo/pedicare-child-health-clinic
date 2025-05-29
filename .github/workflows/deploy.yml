@@ -1,4 +1,4 @@
-name: Deploy to Cloudways via SFTP
+name: 🚀 SFTP Deploy to Cloudways
 
 on:
   push:
@@ -9,15 +9,16 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: SFTP Deploy
-        uses: herve3x/github-action-sftp-deploy@v1.2.4
+      - name: Deploy with SFTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USERNAME }}
-          privateKey: ${{ secrets.SFTP_KEY }}
+          password: ${{ secrets.SFTP_PASSWORD }}  # или privateKey если используешь ключ
+          protocol: "sftp"
           port: ${{ secrets.SFTP_PORT }}
-          local_path: ./
-          remote_path: ${{ secrets.SFTP_REMOTE }}
+          server-dir: ${{ secrets.SFTP_REMOTE }}
+          local-dir: "./"  
