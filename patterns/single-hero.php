@@ -7,18 +7,18 @@
  * Viewport Width: 1360
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri());?>/src/images/pedicare.png","id":20,"dimRatio":20,"overlayColor":"secondary","minHeight":460,"isDark":false,"className":"hdrbanner-BX pedicare-child-health-clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri());?>/src/images/our-team/img-doc-1440.png","id":20,"dimRatio":20,"overlayColor":"secondary","minHeight":460,"isDark":false,"className":"hdrbanner-BX pedicare-child-health-clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
 <div class="wp-block-cover is-light hdrbanner-BX pedicare-child-health-clinic-gap-0" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:460px">
     <span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span>
-    <img class="wp-block-cover__image-background wp-image-20" alt="" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/pedicare.png" data-object-fit="cover"/>
+    <img class="wp-block-cover__image-background wp-image-20" alt="" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/our-team/img-doc-1440.png" data-object-fit="cover"/>
     <div class="wp-block-cover__inner-container">
         <!-- wp:columns -->
         <div class="wp-block-columns"><!-- wp:column -->
             <div class="wp-block-column">
-                <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} /-->
-
-                <!-- wp:paragraph -->
-                <p><?php echo esc_html__('Let our family care for yours', 'pedicare-child-health-clinic'); ?></p>
+                <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground"} /-->
+                
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground"} -->
+                <p class="has-foreground-color has-text-color has-link-color"><?php echo esc_html__('Let our family care for yours', 'pedicare-child-health-clinic'); ?></p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons -->
