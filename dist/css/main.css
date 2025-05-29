@@ -201,6 +201,24 @@ ol.pedicare-child-health-clinic-list  {
 .pedicare-child-health-clinic-phone img{
     margin-right: 10px;
 }
+.is-style-rounded img {
+    border-radius: 50%;
+}
+.wha-signle-doc-sidebar {
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .wha-signle-doc-sidebar {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wha-signle-doc-sidebar {
+        padding: 50px 30px;
+    }
+}
 @media (max-width: 1240px) {
     .pedicare-child-health-clinic-service-team .wp-block-group{
         width: calc(100% / 4);
