@@ -6,19 +6,19 @@ on:
       - main
 
 jobs:
-  deploy:
+  deploy_job:
     runs-on: ubuntu-latest
+    name: Deploy Files
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - name: Deploy with SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: Deploy to Server
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
-          server: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}  # или privateKey если используешь ключ
-          protocol: "sftp"
-          port: ${{ secrets.SFTP_PORT }}
-          server-dir: ${{ secrets.SFTP_REMOTE }}
-          local-dir: "./"  
+          username: 'master_qhtkxxsdcb'
+          server: '167.172.56.163'
+          ssh_private_key: ${{ secrets.SFTP_KEY }}
+          local_path: './'
+          remote_path: '/home/master/applications/usxqghxpfm/public_html/wp-content/themes/pedicare-child-health-clinic'
+          sftpArgs: '-o ConnectTimeout=5'
