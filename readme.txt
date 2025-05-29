@@ -45,11 +45,20 @@ Source: https://fonts.google.com/specimen/Poppins
 
 
 Images
-Images used in the theme demo are from Pexels and are free for commercial use with no attribution required.
-
-Pexels license: https://www.pexels.com/license/
+All images are licensed under [CC0] (https://creativecommons.org/publicdomain/zero/1.0/)
+PxHere Images
+	License: CC0 1.0 Universal (CC0 1.0)
+	Source: https://pxhere.com/en/license
 
 Image sources:
-- https://www.pexels.com/photo/220455/
-- https://www.pexels.com/photo/1912868/
-- https://www.pexels.com/photo/1036623/
+    Hero Image
+    License: CC0 1.0 Universal (CC0 1.0)
+    https://www.pexels.com/photo/220455/
+
+    Call To Action Image
+    License: CC0 1.0 Universal (CC0 1.0)
+    https://www.pexels.com/photo/1912868/
+
+    Doctor Image
+    License: CC0 1.0 Universal (CC0 1.0)
+    https://www.pexels.com/photo/1036623/

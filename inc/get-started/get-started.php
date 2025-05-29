@@ -72,8 +72,8 @@ function pedicare_child_health_clinic_test_guide()
                         <!-- <div class="welcome-panel-icon-pages"></div> -->
                         <div class="welcome-panel-column-content">
                             <h3><?php esc_html_e( 'Important Links', 'pedicare-child-health-clinic' ); ?></h3>
-                            <a target="_blank" href="<?php echo esc_url( 'https://wordpress.org/support/theme/pedicare/' ); ?>"><?php esc_html_e( 'Theme Support', 'pedicare-child-health-clinic' ); ?></a>
-                            <a target="_blank" href="https://pedicare-child-health-clinic.webhelpagency.com/"><?php esc_html_e( 'View Demo', 'pedicare-child-health-clinic' ); ?></a>
+                            <a target="_blank" href="<?php echo esc_url( 'https://wordpress.org/support/theme/pedicare-child-health-clinic/' ); ?>"><?php esc_html_e( 'Theme Support', 'pedicare-child-health-clinic' ); ?></a>
+                            <a target="_blank" href="https://pedicare.webhelpagency.com/"><?php esc_html_e( 'View Demo', 'pedicare-child-health-clinic' ); ?></a>
                         </div>
                     </div>
 
