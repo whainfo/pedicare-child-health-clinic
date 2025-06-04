@@ -38,10 +38,7 @@ if (! function_exists('pedicare_child_health_clinic_support')) :
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
-        global $pagenow;
-        if ( is_admin() && ('themes.php' == $pagenow) && isset( $_GET['activated'] ) ) {
-            wp_safe_redirect( admin_url("themes.php?page=pedicare-child-health-clinic-guide-page") );
-        }
+        
 	}
 endif;
 add_action( 'after_setup_theme', 'pedicare_child_health_clinic_support' );
