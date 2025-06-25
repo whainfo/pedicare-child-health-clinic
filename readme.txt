@@ -45,20 +45,18 @@ Source: https://fonts.google.com/specimen/Poppins
 
 
 === Images ===
-All images are licensed under [CC0] (https://creativecommons.org/publicdomain/zero/1.0/)
-PxHere Images
-	License: CC0 1.0 Universal (CC0 1.0)
-	Source: https://pxhere.com/en/license
-
 Image sources:
     Hero Image
-    License: CC0 1.0 Universal (CC0 1.0)
-    https://www.pexels.com/photo/220455/
+    https://pxhere.com/en/photo/1605139
+    [Creative Commons Zero (CC0) License] 
+    https://pxhere.com/en/license
 
     Call To Action Image
-    License: CC0 1.0 Universal (CC0 1.0)
-    https://www.pexels.com/photo/1912868/
+    https://pxhere.com/en/photo/1259040
+    [Creative Commons Zero (CC0) License] 
+    https://pxhere.com/en/license
 
     Doctor Image
-    License: CC0 1.0 Universal (CC0 1.0)
-    https://www.pexels.com/photo/1036623/
+    https://pxhere.com/en/photo/913311
+    [Creative Commons Zero (CC0) License] 
+    https://pxhere.com/en/license
