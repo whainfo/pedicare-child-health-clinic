@@ -20,7 +20,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"width":"auto","height":"150px","sizeSlug":"full","linkDestination":"custom","align":"center","style":{"color":{"duotone":["#00d2d6","#00d2d6"]}}} -->
                 <figure class="wp-block-image aligncenter size-full is-resized"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-girl.svg" alt="" class="wp-image-30" style="width:auto;height:150px"/></a>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-girl.svg" alt="team-girl" class="wp-image-30" style="width:auto;height:150px"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -36,7 +36,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
                 <!-- wp:image {"width":"auto","height":"150px","className":"aligncenter size-full is-resized"} -->
-                <figure class="wp-block-image is-resized aligncenter size-full"><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-man.svg" alt="" style="width:auto;height:150px"/></a></figure>
+                <figure class="wp-block-image is-resized aligncenter size-full"><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-man.svg" alt="team man" style="width:auto;height:150px"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->
@@ -52,7 +52,7 @@
             <div class="wp-block-group">
                 <!-- wp:image {"id":30,"width":"auto","height":"150px","sizeSlug":"full","linkDestination":"custom","align":"center","style":{"color":{"duotone":["#f6751d","#f6751d"]}}} -->
                 <figure class="wp-block-image aligncenter size-full is-resized"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-girl.svg" alt="" class="wp-image-30" style="width:auto;height:150px"/></a>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-girl.svg" alt="team-girl" class="wp-image-30" style="width:auto;height:150px"/></a>
                 </figure>
                 <!-- /wp:image -->
 
@@ -68,7 +68,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group">
                 <!-- wp:image {"width":"auto","height":"150px","className":"aligncenter size-full is-resized"} -->
-                <figure class="wp-block-image is-resized aligncenter size-full"><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-man.svg" alt="" style="width:auto;height:150px"/></a></figure>
+                <figure class="wp-block-image is-resized aligncenter size-full"><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/team-man.svg" alt="team man" style="width:auto;height:150px"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":5} -->

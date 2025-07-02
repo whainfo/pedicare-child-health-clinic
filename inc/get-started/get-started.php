@@ -44,7 +44,7 @@ function pedicare_child_health_clinic_test_guide()
                 <h2><?php echo esc_html( $theme->Name ); ?></h2>
                 <p><?php esc_html_e( 'Free Full Site Editing WordPress Theme', 'pedicare-child-health-clinic' ); ?></p>
                 <div class="logo-panel">
-                    <a href="<?php echo esc_url('https://webhelpagency.com/'); ?>" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri().'/src/images/logos/WHA_logo.svg' ); ?>"></a>
+                    <a href="<?php echo esc_url('https://webhelpagency.com/'); ?>" target="_self"><img src="<?php echo esc_url( get_template_directory_uri().'/src/images/logos/WHA_logo.svg' ); ?>"></a>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@ function pedicare_child_health_clinic_test_guide()
                         <div class="welcome-panel-column-content">
                             <h3><?php esc_html_e( 'More Features with Web Help Agency', 'pedicare-child-health-clinic' ); ?></h3>
                             <p><?php esc_html_e( 'To get more features and unique home page sections, we recommend you to buy extended design. With the pro theme installed, get more options like google fonts, colors, sliders, page template, shortcodes and more.', 'pedicare-child-health-clinic' ); ?></p>
-                            <a target="_blank" class="button green button-primary button-hero green" href=<?php echo esc_url("https://webhelpagency.com/"); ?>><?php esc_html_e( 'Buy Pedicare child health clinic Pro', 'pedicare-child-health-clinic' ); ?></a>
+                            <a target="_self" class="button green button-primary button-hero green" href=<?php echo esc_url("https://webhelpagency.com/"); ?>><?php esc_html_e( 'Buy Pedicare child health clinic Pro', 'pedicare-child-health-clinic' ); ?></a>
                         </div>
                     </div>
 
@@ -72,8 +72,8 @@ function pedicare_child_health_clinic_test_guide()
                         <!-- <div class="welcome-panel-icon-pages"></div> -->
                         <div class="welcome-panel-column-content">
                             <h3><?php esc_html_e( 'Important Links', 'pedicare-child-health-clinic' ); ?></h3>
-                            <a target="_blank" href="<?php echo esc_url( 'https://wordpress.org/support/theme/pedicare-child-health-clinic/' ); ?>"><?php esc_html_e( 'Theme Support', 'pedicare-child-health-clinic' ); ?></a>
-                            <a target="_blank" href="https://pedicare.webhelpagency.com/"><?php esc_html_e( 'View Demo', 'pedicare-child-health-clinic' ); ?></a>
+                            <a target="_self" href="<?php echo esc_url( 'https://wordpress.org/support/theme/pedicare-child-health-clinic/' ); ?>"><?php esc_html_e( 'Theme Support', 'pedicare-child-health-clinic' ); ?></a>
+                            <a target="_self" href="https://pedicare.webhelpagency.com/"><?php esc_html_e( 'View Demo', 'pedicare-child-health-clinic' ); ?></a>
                         </div>
                     </div>
 
@@ -82,7 +82,7 @@ function pedicare_child_health_clinic_test_guide()
                         <div class="welcome-panel-column-content">
                             <h3><?php esc_html_e( 'Leave us a review', 'pedicare-child-health-clinic' ); ?></h3>
                             <p><?php esc_html_e( 'Loved pedicare-child-health-clinic Theme? Feel free to leave your feedback. Your opinion helps us reach more audiences!', 'pedicare-child-health-clinic' ); ?></p>
-                            <a href="https://wordpress.org/support/theme/pedicare-child-health-clinic/" class="button button-primary button-hero" style="text-decoration: none;" target="_blank"><?php esc_html_e( 'Review', 'pedicare-child-health-clinic' ); ?></a>
+                            <a href="https://wordpress.org/support/theme/pedicare-child-health-clinic/" class="button button-primary button-hero" style="text-decoration: none;" target="_self"><?php esc_html_e( 'Review', 'pedicare-child-health-clinic' ); ?></a>
                         </div>
                     </div>
                 </div>

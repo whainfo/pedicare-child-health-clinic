@@ -28,7 +28,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="brain" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -40,7 +40,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="eye" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -52,7 +52,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-general.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="general" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -64,7 +64,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-heart.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="heart" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -76,7 +76,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-knee.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="knee" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -88,7 +88,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-lungs.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="lungs" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -100,7 +100,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="nutrition" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -112,7 +112,7 @@
                     <!-- wp:image {"id":30,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full"><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-pediatric.png"
-                                alt="" class="wp-image-30"/></figure>
+                                alt="pediatric" class="wp-image-30"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->

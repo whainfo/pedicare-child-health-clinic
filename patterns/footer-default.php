@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull has-white-color has-footer-top-to-bottom-gradient-background has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)">
         <!-- wp:image {"id":17,"width":"auto","height":"60px","sizeSlug":"full","linkDestination":"none"} -->
-        <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/logos/logo.svg" alt="" class="wp-image-17" style="width:auto;height:60px"/></figure>
+        <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/logos/logo.svg" alt="logo" class="wp-image-17" style="width:auto;height:60px"/></figure>
         <!-- /wp:image -->
 
         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
@@ -28,7 +28,7 @@
             <!-- wp:button {"textColor":"foreground","className":"is-style-outline pedicare-child-health-clinic-phone","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"border":{"width":"0px","style":"none"}}} -->
             <div class="wp-block-button is-style-outline pedicare-child-health-clinic-phone" style="text-transform:uppercase">
                 <a class="wp-block-button__link has-foreground-color has-text-color has-link-color wp-element-button" href="#" style="border-style:none;border-width:0px">
-                    <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone-white.svg" alt=""><?php echo esc_html__('08001234567', 'pedicare-child-health-clinic'); ?></a></div>
+                    <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone-white.svg" alt="phone"><?php echo esc_html__('08001234567', 'pedicare-child-health-clinic'); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->

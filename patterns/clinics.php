@@ -25,7 +25,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png" alt="eye" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -35,7 +35,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png" alt="brain" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -45,7 +45,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-surgery.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-surgery.png" alt="surgery" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -55,7 +55,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-eye.png" alt="eye" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -65,7 +65,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png" alt="nutrition" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -75,7 +75,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-brain.png" alt="brain" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -85,7 +85,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-nutrition.png" alt="nutrition" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -95,7 +95,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-general.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-general.png" alt="general" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -105,7 +105,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-lungs.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-lungs.png" alt="lungs" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -115,7 +115,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-sleep.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-sleep.png" alt="sleep" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -125,7 +125,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-pediatric.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-pediatric.png" alt="pediatric" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->
@@ -135,7 +135,7 @@
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":30,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full"><a href="#">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-ruler.png" alt="" class="wp-image-30"/></a></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/icons/services/ico-ruler.png" alt="ruler" class="wp-image-30"/></a></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","lineHeight":"1.5"}},"fontSize":"m"} -->

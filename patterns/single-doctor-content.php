@@ -16,7 +16,7 @@
 
                 <!-- wp:image {"id":80,"sizeSlug":"full","linkDestination":"none","align":"center","className":"pedicare-child-health-clinic-doctor"} -->
                 <figure class="wp-block-image aligncenter size-full pedicare-child-health-clinic-doctor is-style-rounded">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="" class="wp-image-80"/></figure>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/our-team/img-doc-1.png" alt="doctor" class="wp-image-80"/></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
@@ -47,7 +47,7 @@
 
                 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap","orientation":"vertical"}} -->
                 <div class="wp-block-buttons alignwide"><!-- wp:button {"backgroundColor":"title-highlight","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}},"fontSize":"l"} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a class="wp-block-button__link has-foreground-color has-title-highlight-background-color has-text-color has-background has-link-color wp-element-button"><strong><?php echo esc_html__('book an appointment', 'pedicare-child-health-clinic'); ?></strong> &gt;</a></div>
+                    <div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a href="#" class="wp-block-button__link has-foreground-color has-title-highlight-background-color has-text-color has-background has-link-color wp-element-button"><strong><?php echo esc_html__('book an appointment', 'pedicare-child-health-clinic'); ?></strong> &gt;</a></div>
                     <!-- /wp:button --></div>
                 <!-- /wp:buttons --></div>
             <!-- /wp:group --></div>

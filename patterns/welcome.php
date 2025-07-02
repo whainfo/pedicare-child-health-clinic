@@ -23,7 +23,7 @@
             <div class="wp-block-columns"><!-- wp:column {"className":"pedicare-child-health-clinic-whoweare-image","style":{"spacing":{"padding":{"right":"var:preset|spacing|60","top":"var:preset|spacing|50","bottom":"var:preset|spacing|80","left":"var:preset|spacing|60"}},"color":{"background":"#d1f0f180"},"border":{"radius":"53px"}}} -->
                 <div class="wp-block-column pedicare-child-health-clinic-whoweare-image has-background" style="border-radius:53px;background-color:#d1f0f180;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":27,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full">
-                        <img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/icons/icon.png" alt="" class="wp-image-27"/></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/icons/icon.png" alt="home" class="wp-image-27"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
@@ -38,7 +38,7 @@
                 <!-- wp:column {"width":"","className":"pedicare-child-health-clinic-whoweare-image","style":{"spacing":{"padding":{"right":"var:preset|spacing|60","top":"var:preset|spacing|50","bottom":"var:preset|spacing|80","left":"var:preset|spacing|60"}},"color":{"background":"#fce6cd80"},"border":{"radius":"53px"}}} -->
                 <div class="wp-block-column pedicare-child-health-clinic-whoweare-image has-background" style="border-radius:53px;background-color:#fce6cd80;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":28,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full">
-                        <img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/icons/icon-1.png" alt="" class="wp-image-28"/></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/icons/icon-1.png" alt="heart" class="wp-image-28"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->
@@ -53,7 +53,7 @@
                 <!-- wp:column {"className":"pedicare-child-health-clinic-whoweare-image","style":{"spacing":{"padding":{"right":"var:preset|spacing|60","top":"var:preset|spacing|50","bottom":"var:preset|spacing|80","left":"var:preset|spacing|60"}},"color":{"background":"#a2c62626"},"border":{"radius":"53px"}}} -->
                 <div class="wp-block-column pedicare-child-health-clinic-whoweare-image has-background" style="border-radius:53px;background-color:#a2c62626;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":29,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
                     <figure class="wp-block-image aligncenter size-full">
-                        <img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/icons/icon-2.png" alt="" class="wp-image-29"/></figure>
+                        <img src="<?php echo esc_url(get_template_directory_uri());?>/src/images/icons/icon-2.png" alt="star" class="wp-image-29"/></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"none"}}} -->

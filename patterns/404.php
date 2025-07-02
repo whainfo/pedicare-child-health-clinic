@@ -27,7 +27,7 @@
     <div class="wp-block-buttons">
         <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"radius":"0px","width":"0px","style":"none"}}} -->
         <div class="wp-block-button">
-            <a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" style="border-style:none;border-width:0px;border-radius:0px">
+            <a href="#" class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" style="border-style:none;border-width:0px;border-radius:0px">
                 <?php echo esc_html__('Return Home', 'pedicare-child-health-clinic'); ?>
             </a></div>
         <!-- /wp:button --></div>
