@@ -44,27 +44,6 @@ if (! function_exists('pedicare_child_health_clinic_support')) :
 endif;
 add_action( 'after_setup_theme', 'pedicare_child_health_clinic_support' );
 
-// Fix Repetitive Link Tex "read more"
-add_filter( 'render_block', function( $block_content, $block ) {
-    if ( isset($block['blockName']) && $block['blockName'] === 'core/read-more' ) {
-
-        $post_title = get_the_title();
-
-        if ( $post_title ) {
-
-            $sr_text = ' <span class="screen-reader-text">' . esc_html( $post_title ) . '</span>';
-
-            $block_content = preg_replace(
-                '/(<a[^>]*>)(.*?)(<\/a>)/i',
-                '$1$2' . $sr_text . '$3',
-                $block_content
-            );
-        }
-    }
-    return $block_content;
-}, 10, 2 );
-
-
 // Enqueue Styles
 require_once get_template_directory() . '/inc/theme-enqueue.php';
 

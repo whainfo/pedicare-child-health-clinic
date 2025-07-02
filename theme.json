@@ -283,7 +283,7 @@
 				},
 				{
 					"slug": "title-highlight",
-					"color": "#18B4BB",
+					"color": "#0e8388",
 					"name": "Title highlight"
 				},
 				{
@@ -295,6 +295,11 @@
 					"slug": "background-color",
 					"color": "#fff8de",
 					"name": "Accent"
+				},
+				{
+					"slug": "black",
+					"color": "#000000",
+					"name": "Black"
 				}
 			]
 		},

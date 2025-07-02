@@ -207,7 +207,9 @@ ol.pedicare-child-health-clinic-list  {
 .wha-signle-doc-sidebar {
     padding: 15px;
 }
-
+.wp-block-cover{
+    background-color: var(--wp--preset--color--black);
+}
 @media (min-width: 768px) {
     .wha-signle-doc-sidebar {
         padding: 20px;
