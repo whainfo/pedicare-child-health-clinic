@@ -32,6 +32,13 @@ Compatible with the latest WordPress version. Regular updates and expert support
 = 1.0.1 =
 * Updated Images and logo replaced with Site title
 
+= 1.0.2 =
+* Added href attributes to links
+* Fixed improper use of <h1> tags
+* Added alt attributes to images
+* Replaced target="_blank" with target="_self" where needed
+* Improved text and background contrast for better readability
+
 == Copyright ==
 
 * Based on Twenty Twenty-Three WordPress Theme, (C) 2021 WordPress.org. Twenty Twenty-Three is distributed under the terms of the GNU GPL.
