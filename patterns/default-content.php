@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0">
+<main class="wp-block-group" style="margin-top:0;margin-bottom:0" role="main">
     <!-- wp:cover {"url":"<?php echo esc_url(get_template_directory_uri()); ?>/src/images/pedicare.png","id":20,"dimRatio":20,"overlayColor":"secondary","isUserOverlayColor":true,"minHeight":500,"isDark":false,"className":"hdrbanner-BX pedicare-child-health-clinic-gap-0","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
     <div class="wp-block-cover is-light hdrbanner-BX pedicare-child-health-clinic-gap-0" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:500px">
         <span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-20" alt="doctors" src="<?php echo esc_url(get_template_directory_uri()); ?>/src/images/pedicare.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"bannerInfo","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->

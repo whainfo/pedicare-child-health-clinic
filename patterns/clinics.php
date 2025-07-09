@@ -8,7 +8,7 @@
 ?>
 <!-- wp:group {"tagName":"main","className":"main-frontpage pedicare-child-health-clinic-clinics","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","right":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
 <main class="wp-block-group main-frontpage pedicare-child-health-clinic-clinics"
-      style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)">
+      style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)" role="main">
     <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0","right":"var:preset|spacing|0","left":"var:preset|spacing|0"}}},"backgroundColor":"foreground","layout":{"type":"constrained","contentSize":"1360px"}} -->
     <div class="wp-block-group alignfull has-foreground-background-color has-background" id="section-1"
          style="padding-top:var(--wp--preset--spacing--0);padding-right:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--0);padding-left:var(--wp--preset--spacing--0)">

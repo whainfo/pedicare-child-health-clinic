@@ -47,7 +47,7 @@
 
                 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap","orientation":"vertical"}} -->
                 <div class="wp-block-buttons alignwide"><!-- wp:button {"backgroundColor":"title-highlight","textColor":"foreground","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}},"fontSize":"l"} -->
-                    <div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a href="#" class="wp-block-button__link has-foreground-color has-title-highlight-background-color has-text-color has-background has-link-color wp-element-button"><strong><?php echo esc_html__('book an appointment', 'pedicare-child-health-clinic'); ?></strong> &gt;</a></div>
+                    <div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-l-font-size" style="text-transform:uppercase"><a href="tel:08001234567" class="wp-block-button__link has-foreground-color has-title-highlight-background-color has-text-color has-background has-link-color wp-element-button"><strong><?php echo esc_html__('book an appointment', 'pedicare-child-health-clinic'); ?></strong> &gt;</a></div>
                     <!-- /wp:button --></div>
                 <!-- /wp:buttons --></div>
             <!-- /wp:group --></div>

@@ -21,7 +21,7 @@
                 <!-- wp:button {"textColor":"background","className":"is-style-outline pedicare-child-health-clinic-phone","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"border":{"width":"0px","style":"none"}}} -->
                 <div class="wp-block-button is-style-outline pedicare-child-health-clinic-phone">
                     <a href="#" class="wp-block-button__link has-background-color has-text-color has-link-color wp-element-button" style="border-style:none;border-width:0px">
-                        <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone.svg" alt="phone"><?php echo esc_html__('08001234567', 'pedicare-child-health-clinic'); ?></a></div>
+                        <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone.svg" alt="phone" aria-hidden="true"><?php echo esc_html__('08001234567', 'pedicare-child-health-clinic'); ?></a></div>
                 <!-- /wp:button -->
 
                 <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->
@@ -50,11 +50,11 @@
             <!-- wp:button {"textColor":"background","className":"is-style-outline pedicare-child-health-clinic-phone","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"border":{"width":"0px","style":"none"}}} -->
             <div class="wp-block-button is-style-outline pedicare-child-health-clinic-phone">
                 <a href="#" class="wp-block-button__link has-background-color has-text-color has-link-color wp-element-button" style="border-style:none;border-width:0px">
-                    <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone.svg" alt="phone"><?php echo esc_html__('08001234567', 'pedicare-child-health-clinic'); ?></a></div>
+                    <img class="wp-image-22" style="width: 16px;" src="<?php echo esc_url(get_template_directory_uri());?>/src/images/phone.svg" alt="phone" aria-hidden="true"><?php echo esc_html__('08001234567', 'pedicare-child-health-clinic'); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"}}} -->
-            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a href="#" class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Book an appointment</a></div>
+            <div class="wp-block-button is-style-outline" style="text-transform:uppercase"><a href="tel:08001234567" class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button">Book an appointment</a></div>
             <!-- /wp:button --></div>
         <!-- /wp:buttons --></div>
     <!-- /wp:group --></div>

@@ -23,15 +23,15 @@
                 <!-- wp:post-date {"format":"F j, Y"} /-->
                 <!-- wp:post-title {"isLink":true,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"}},"fontSize":"l"} /-->
 
-                <!-- wp:read-more {"content":"\u003cstrong\u003eRead more \u003e\u003c/strong\u003e","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-color"}}}},"textColor":"accent-color","fontSize":"m"} /-->
                 <!-- /wp:post-template --></div>
             <!-- /wp:query -->
 
             <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
             <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--80)"><!-- wp:button {"backgroundColor":"accent-color","textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"fontSize":"l"} -->
-                <div class="wp-block-button has-custom-font-size has-l-font-size"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__('Read more posts', 'pedicare-child-health-clinic'); ?> &gt;</a></div>
+                <div class="wp-block-button has-custom-font-size has-l-font-size"><a class="wp-block-button__link has-foreground-color has-accent-color-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__('more posts', 'pedicare-child-health-clinic'); ?> &gt;</a></div>
                 <!-- /wp:button --></div>
             <!-- /wp:buttons --></div>
         <!-- /wp:column --></div>
     <!-- /wp:columns --></div>
 <!-- /wp:group -->
+

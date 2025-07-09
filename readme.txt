@@ -39,6 +39,11 @@ Compatible with the latest WordPress version. Regular updates and expert support
 * Replaced target="_blank" with target="_self" where needed
 * Improved text and background contrast for better readability
 
+= 1.0.3 =
+* Added aria-hidden="true" attribute to icons for improved accessibility.
+* Removed the “Read more” button
+* Corrected the heading hierarchy for better semantic structure.
+
 == Copyright ==
 
 * Based on Twenty Twenty-Three WordPress Theme, (C) 2021 WordPress.org. Twenty Twenty-Three is distributed under the terms of the GNU GPL.
